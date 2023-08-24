@@ -3,66 +3,6 @@ import logo from '../assets/LOGO.png';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { useState } from 'react';
 
-// const Navbar = () => {
-// 	return (
-// 		<NavbarContainer>
-// 			{/* logo */}
-// 			<LogoWrapper>
-// 				<NavLink href="">
-// 					<Image src={logo} alt="" />
-// 				</NavLink>
-// 			</LogoWrapper>
-
-// 			{/* menu */}
-// 			<NavList>
-// 				<li>
-// 					<NavLink href="">ABOUT</NavLink>
-// 				</li>
-// 				<li>
-// 					<NavLink href="">BENEFIT</NavLink>
-// 				</li>
-// 				<li>
-// 					<NavLink href="">JADWAL</NavLink>
-// 				</li>
-// 				<li>
-// 					<NavLink href="">DIVISI</NavLink>
-// 				</li>
-// 				<li>
-// 					<NavLink href="">DAFTAR</NavLink>
-// 				</li>
-// 			</NavList>
-// 		</NavbarContainer>
-// 	);
-// };
-
-// const NavbarContainer = styled.nav`
-// 	display: flex;
-// 	justify-content: space-between;
-// 	align-items: center;
-// 	background-color: black;
-// `;
-// const LogoWrapper = styled.div``;
-
-// const NavList = styled.ul`
-// 	display: flex;
-// 	justify-content: center;
-// 	gap: 20px;
-// 	margin-bottom: 10px;
-// `;
-
-// const Image = styled.img`
-// 	width: 200px;
-// `;
-
-// const NavLink = styled.a`
-// 	color: #fff;
-// 	font-family: var(--font-family2);
-// 	&:hover {
-// 		color: var(--secondary-color);
-// 	}
-// 	font-size: 30px;
-// `;
-
 const Navbar = () => {
 	const [isNavOpen, setIsNavOpen] = useState(false);
 
