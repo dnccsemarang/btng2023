@@ -3,11 +3,6 @@
 :root {
 	--font-family: 'VT323', monospace;
 	--font-family2: 'ArcadeClassic', sans-serif;
-	--primary-color: #e0fcff;
-	--secondary-color: #c2f4f9;
-	--third-color: #79b5f1;
-	--forth-color: #4f6fae;
-	--fifth-color: #3f5683;
 }
 
 * {
@@ -17,7 +12,12 @@
 }
 
 body {
-	background-image: linear-gradient(to bottom, var(--forth-color), var(--secondary-color), var(--forth-color));
+	height: 100%;
+	margin: 0;
+	background-image: url('./assets/bg.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
 
 .container {
@@ -56,10 +56,10 @@ a {
 		text-align: center;
 
 		.hero-title {
-			background: -webkit-linear-gradient(90deg, #ffffff 48%, #79b5f1 48%);
+			background: -webkit-linear-gradient(#ffffff 48%, #fdf534 48%);
 			-webkit-background-clip: text;
 			-webkit-text-fill-color: transparent;
-			filter: drop-shadow(3px 5px #3f5683);
+			filter: drop-shadow(3px 5px #000);
 			-webkit-text-stroke-width: 1px;
 			-webkit-text-stroke-color: black;
 			font-family: ArcadeClassic;
@@ -88,14 +88,14 @@ a {
 }
 
 .title {
-	font-family: ArcadeClassic;
-	text-align: center;
-	font-size: 88px;
 	color: #fff;
-	filter: drop-shadow(2px 2px #3f5683);
+	text-align: center;
+	text-shadow: 0px 4px 0px #000;
+	filter: drop-shadow(2px 2px #000);
 	-webkit-text-stroke-width: 1px;
 	-webkit-text-stroke-color: black;
 	font-family: ArcadeClassic;
+	font-size: 88px;
 	font-style: normal;
 	font-weight: 400;
 	line-height: normal;
@@ -111,52 +111,6 @@ a {
 	.text-button {
 		font-size: 35px;
 	}
-}
-
-.box {
-	margin: 2rem auto;
-	max-width: 25ch;
-	color: #fff;
-	padding: 2ch;
-	background-color: #3f5683;
-	clip-path: polygon(
-		0px calc(100% - 20px),
-		4px calc(100% - 20px),
-		4px calc(100% - 12px),
-		8px calc(100% - 12px),
-		8px calc(100% - 8px),
-		12px calc(100% - 8px),
-		12px calc(100% - 4px),
-		20px calc(100% - 4px),
-		20px 100%,
-		calc(100% - 20px) 100%,
-		calc(100% - 20px) calc(100% - 4px),
-		calc(100% - 12px) calc(100% - 4px),
-		calc(100% - 12px) calc(100% - 8px),
-		calc(100% - 8px) calc(100% - 8px),
-		calc(100% - 8px) calc(100% - 12px),
-		calc(100% - 4px) calc(100% - 12px),
-		calc(100% - 4px) calc(100% - 20px),
-		100% calc(100% - 20px),
-		100% 20px,
-		calc(100% - 4px) 20px,
-		calc(100% - 4px) 12px,
-		calc(100% - 8px) 12px,
-		calc(100% - 8px) 8px,
-		calc(100% - 12px) 8px,
-		calc(100% - 12px) 4px,
-		calc(100% - 20px) 4px,
-		calc(100% - 20px) 0px,
-		20px 0px,
-		20px 4px,
-		12px 4px,
-		12px 8px,
-		8px 8px,
-		8px 12px,
-		4px 12px,
-		4px 20px,
-		0px 20px
-	);
 }
 
 .text-button {

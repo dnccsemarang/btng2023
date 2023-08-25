@@ -84,7 +84,7 @@ const NavList = styled.ul`
 		z-index: 1;
 		top: 0;
 		left: 0;
-		background-color: var(--fifth-color);
+		background-color: #009dff;
 		overflow-x: hidden;
 		transition: transform 0.5s;
 		transform: translateX(${({ isOpen }) => (isOpen ? '0' : '-100%')});
