@@ -1,9 +1,7 @@
 const PixelBtn = () => {
 	return (
-		<div className="container">
-			<div className="pixel">
-				<p>Start</p>
-			</div>
+		<div className="pixel">
+			<p>Start</p>
 		</div>
 	);
 };
