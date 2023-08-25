@@ -382,3 +382,41 @@ a {
 }
 
 /* ini responsifny gmn dah pusing gw  */
+
+.benefit-content {
+	margin-top: 30px;
+}
+
+.benefit-item {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	padding: 20px;
+}
+
+.benefit-item h1 {
+	color: #354a74;
+	font-size: clamp(3rem, 3vw, 6rem);
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+.benefit-item h2 {
+	color: #000;
+	font-family: VT323;
+	font-size: clamp(2.5rem, 3vw, 6rem);
+
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.benefit-title span {
+	margin-left: 20px;
+	font-family: var(--font-family2);
+}
+
+@media (max-width: 768px) {
+	.benefit-item {
+		grid-template-columns: 1fr;
+	}
+}
