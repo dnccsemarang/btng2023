@@ -39,10 +39,17 @@ const Navbar = () => {
 };
 
 const NavbarContainer = styled.nav`
+	margin: 35px;
 	display: flex;
 	justify-content: space-between;
 	/* background-color: black; */
 	align-items: center;
+	@media only screen and (min-width: 900px) {
+		margin-top: 50px;
+		margin-bottom: 50px;
+		margin-left: 100px;
+		margin-right: 100px;
+	}
 `;
 
 const NavToggle = styled.button`

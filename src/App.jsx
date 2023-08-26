@@ -1,6 +1,8 @@
 // import { useState } from 'react';
 import Navbar from './components/Navbar';
 import Footer from './components/footer';
+import cloudImgRght from './assets/cloudRight.png';
+import cloudImgLft from './assets/cloudLeft.png';
 
 function App() {
 	return (
@@ -8,8 +10,14 @@ function App() {
 			<Navbar />
 			<section className="hero">
 				<div className="hero-content">
+					<div className="img-wrapper-right">
+						<img className="cloud-right" src={cloudImgRght} alt="" />
+					</div>
 					<h1 className="hero-title">BTNG 2023</h1>
 					<h3 className="hero-subtitle">Time to level up!</h3>
+					<div className="img-wrapper-left">
+						<img className="cloud-left" src={cloudImgLft} alt="" />
+					</div>
 					<div className="pixel-corners--wrapper">
 						<div className="pixel-corners">
 							<h1 className="text-button">start</h1>
