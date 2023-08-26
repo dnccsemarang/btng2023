@@ -316,23 +316,91 @@ a {
 	margin: -4px;
 }
 
-.item {
-	display: flex;
-	justify-content: end;
-	.nes-kirby {
-		display: flex;
-		align-items: end;
-		margin-top: 30px;
-		padding: 50px;
-		width: 62px;
-	}
-}
-
 .title-container {
 	display: grid;
 	grid-template-columns: auto auto auto;
 	align-items: center;
 	justify-content: space-around;
+}
+
+.item-about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flower-left,
+.character-center,
+.flower-right {
+    width: 150px;
+    height: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.flower-left {
+    background-image: url('assets/flower-l.png'); /* Ganti dengan path gambar yang sesuai */
+}
+
+.character-center {
+    background-image: url('assets/charcter-about.png'); /* Ganti dengan path gambar yang sesuai */
+}
+
+.flower-right {
+    background-image: url('assets/flower-r.png');
+}
+
+.title.with-arrows {
+    background-image: url('assets/arrow-r.png'), url('assets/arrow-l.png');
+	background-size: 9rem, 9rem;
+    background-repeat: no-repeat, no-repeat;
+    background-position: left 400px center, right 400px center;
+	transition: all 0.3s ease;
+}
+
+.bubble-buttom {
+	position: absolute;
+	bottom: -25px; /* Adjust the distance from the bubble */
+	left: 50%;
+	transform: translateX(-50%);
+	width: 5px;
+	height: 21px;
+	content: '';
+	display: block;
+	background: #fff;
+	box-shadow:
+	  4px -5px #fff,
+	  8px -10px #fff,
+	  0 5px #212529,
+	  5px 0 #212529,
+	  10px -5px #212529,
+	  13px -8px #212529,
+	  -5px 0 #212529;
+  }
+
+@media (max-width: 768px) { 
+    .title.with-arrows {
+        background-size: 2rem, 2rem;
+        background-position: left center, right center; /* Sesuaikan posisi sesuai kebutuhan */
+        transition: all 0.3s ease;
+    }
+
+    .flower-left,
+    .character-center,
+    .flower-right {
+        width: 100px;
+        background-size: contain;
+        background-repeat: no-repeat;
+		transition: all 0.3s ease;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1600px) { 
+    .title.with-arrows {
+		background-size: 6rem, 6rem;
+		background-position: left 40px center, right 40px center;
+		transition: all 0.3s ease;
+    }
 }
 
 /* ini responsifny gmn dah pusing gw  */
