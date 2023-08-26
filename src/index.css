@@ -21,12 +21,9 @@ body {
 }
 
 .container {
-	/* margin: 35px; */
 	@media only screen and (min-width: 900px) {
 		margin-top: 50px;
 		margin-bottom: 50px;
-		/* margin-left: 100px;
-		margin-right: 100px; */
 	}
 }
 
@@ -38,8 +35,6 @@ section, footer {
 		margin-left: 100px;
 		margin-right: 100px;
 	}
-	/* margin-top: 30px;
-	margin-bottom: 30px; */
 }
 
 ul {
@@ -58,7 +53,7 @@ a {
 
 .hero {
 	padding-top: 3rem;
-	padding-bottom: 8rem;
+	padding-bottom: 20rem;
 	margin-left: 0 !important;
 	margin-right: 0 !important;
 	.hero-content {
@@ -97,27 +92,48 @@ a {
 }
 
 .img-wrapper-right {
-	position: relative;
 	height: 0;
 	text-align: right;
-	overflow: visible;
+}
+
+.img-wrapper {
+	height: 0;
+	text-align: center;
 }
 
 .img-wrapper-left {
-	position: relative;
 	height: 0;
 	text-align: left;
-	overflow: visible;
 }
 
-.cloud-right {
-	display: absolute;
-	right: 0;
+.energy-right {
+	margin-right: 20rem;
 }
 
-.cloud-left {
-	display: absolute;
-	left: 0;
+.energy-left {
+	margin-left: 20rem;
+}
+
+.rumput-right {
+	margin-top: 10rem;
+}
+
+.rumput-left {
+	margin-top: 10rem;
+}
+
+.bunga-right {
+	margin-top: 3rem;
+	margin-right: 20rem;
+}
+
+.bunga-left {
+	margin-top: 3rem;
+	margin-left: 20rem;
+}
+
+.diamond {
+	margin-top: 12rem;
 }
 
 .title {
