@@ -1,0 +1,213 @@
+footer {
+    height: 100%;
+}
+
+.pipe-grass {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: ce/nter; */
+    align-items: center;
+}
+
+.pipe {
+    position: absolute;
+    height: 125px;
+    width: 80px;
+}
+
+footer {
+    margin-top: 10rem;
+}
+
+.register-btn-part {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    margin: 30px 0 10em 0;
+}
+
+.footer-title {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-title-content {
+    text-align: center;
+    width: 400px;
+}
+
+.footer-title span,
+.part-title {
+    color: #fff;
+    text-shadow: 0px #000;
+    filter: drop-shadow(2px 2px #000);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-family: ArcadeClassic;
+    font-size: 45px;
+}
+
+.pipe-grass-img {
+    position: absolute;
+    width: 50em;
+    margin-top: -12em;
+}
+
+.arrow {
+    margin-right: 15px;
+    width: 75px;
+}
+
+.daftar-button {
+    margin: 20px 15px;
+    padding-inline: 20px;
+    color: #3f5683;
+    font-family: ArcadeClassic;
+    font-size: 25px;
+    font-weight: 400;
+
+}
+
+.daftar-btn-item {
+    margin-top: -40px;
+    /* margin-bottom: 20em; */
+}
+
+.media-partner-content {
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.partner-logo {
+    width: 40px;
+    padding: 5px;
+}
+
+.part-title {
+    text-align: center;
+}
+
+.footer-more-info-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    padding-bottom: 10em;
+}
+
+.media-partner-content,
+.contact-person-content,
+.social-media-content {
+    margin: 30px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 25px;
+}
+
+.media-partner-part,
+.contact-person-part,
+.social-media-part {
+    margin: 20px 0;
+}
+
+.partner-logo-item {
+    margin: 0 !important;
+}
+
+table {
+    border-collapse: separate;
+}
+
+.pipe-left {
+    left: 0;
+}
+
+.grass-1 {
+    width: 200px;
+    height: 50px;
+}
+
+.arrow {
+    width: 115px;
+}
+
+.daftar-button {
+    margin: 20px 15px;
+    padding-inline: 20px;
+    color: #3f5683;
+    font-family: ArcadeClassic;
+    font-size: 25px;
+    font-weight: 400;
+
+}
+
+.daftar-btn-item {
+    margin-top: -40px;
+}
+
+@media screen and (max-width:510px) {
+    .arrow {
+        display: none;
+    }
+}
+
+@media screen and (min-width:640px) {
+    .footer-more-info-container {
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .pipe-grass-img {
+        display: none;
+    }
+
+    .arrow {
+        width: 55px !important;
+    }
+
+    .arrow.left-arrow {
+        display: none;
+    }
+
+    .part-title {
+        font-size: 30px;
+    }
+
+    .social-media-content table {
+        font-size: 20px;
+    }
+
+    .media-partner-content {
+        display: flex;
+        align-items: center;
+    }
+
+    .daftar-button {
+        margin: 10px 15px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .part-title {
+        font-size: 36px;
+    }
+
+    .partner-logo {
+        width: 40px;
+        padding: 5px;
+    }
+
+    .social-media-content table {
+        font-size: 25px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .part-title {
+        font-size: 40px;
+    }
+}

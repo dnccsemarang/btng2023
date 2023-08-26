@@ -1,6 +1,6 @@
 // import { useState } from 'react';
 import Navbar from './components/Navbar';
-import Footer from './components/footer';
+import Footer from './components/Footer/Footer';
 
 function App() {
 	return (
@@ -17,6 +17,7 @@ function App() {
 					</div>
 				</div>
 			</section>
+
 			<section className="about">
 				<h1 className="title">About BTNG</h1>
 				<div className="nes-balloon from-right balloon">
