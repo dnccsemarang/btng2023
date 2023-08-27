@@ -101,7 +101,7 @@ a {
 	line-height: normal;
 	/* margin-bottom: 40px; */
 	@media only screen and (max-width: 766px) {
-		font-size: 50px;
+		font-size: 40px;
 	}
 }
 
@@ -323,6 +323,8 @@ a {
 	justify-content: space-around;
 }
 
+
+/* ----------------------SECTION ABOUT CSS---------------------- */
 .item-about {
     display: flex;
     justify-content: space-between;
@@ -402,6 +404,8 @@ a {
 		transition: all 0.3s ease;
     }
 }
+
+/* ----------------------END SECTION ABOUT CSS---------------------- */
 
 /* ini responsifny gmn dah pusing gw  */
 
