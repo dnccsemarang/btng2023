@@ -18,16 +18,19 @@ function App() {
 				</div>
 			</section>
 			<section className="about">
-				<h1 className="title">About BTNG</h1>
-				<div className="nes-balloon from-right balloon">
+				<h1 className="title with-arrows">About BTNG</h1>
+				<div className="nes-balloon balloon">
 					<p>
 						BTNG (Basic Training Next Generation) adalah acara DNCC sebagai gerbang awal bagi mahasiswa yang ingin
 						menjadi anggota di UKM DNCC. Acara ini bertujuan untuk memberikan pelatihan kepada calon anggota baru agar
 						memiliki pengetahuan yang unggul dalam divisi yang dipilih.
 					</p>
+					<div className="bubble-buttom"></div>
 				</div>
-				<div className="item">
-					<i className="nes-kirby"></i>
+				<div className="item-about">
+					<i alt="Pink Flower" className="flower-left"></i>
+					<i alt="Character About" className="character-center"></i>
+					<i alt="Pink Flower" className="flower-right"></i>
 				</div>
 			</section>
 			<section className="benefit">
