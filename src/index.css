@@ -12,6 +12,7 @@
 }
 
 body {
+	overflow-x: hidden;
 	height: 100%;
 	margin: 0;
 	background-image: url('./assets/bg.png');
@@ -198,7 +199,6 @@ a {
 	height: fit-content;
 }
 .pixel-corners--wrapper .pixel-corners {
-	display: block;
 	clip-path: polygon(
 		4px 20px,
 		8px 20px,
