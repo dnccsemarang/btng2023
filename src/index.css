@@ -27,7 +27,8 @@ body {
 	}
 }
 
-section, footer {
+section,
+footer {
 	margin: 35px;
 	@media only screen and (min-width: 900px) {
 		margin-top: 50px;
@@ -51,9 +52,9 @@ a {
 	text-decoration: none;
 }
 
+/* ----------------------SECTION HERO CSS---------------------- */
 .hero {
 	padding-top: 3rem;
-	padding-bottom: 20rem;
 	margin-left: 0 !important;
 	margin-right: 0 !important;
 	.hero-content {
@@ -91,74 +92,91 @@ a {
 	}
 }
 
-.img-wrapper-right {
+.cloud-wrapper-right {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
 	height: 0;
-	text-align: right;
 }
 
-.img-wrapper {
+.cloud-wrapper-left {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
 	height: 0;
-	text-align: center;
 }
 
-.img-wrapper-left {
-	height: 0;
-	text-align: left;
+.cloud-energy-right {
+	width: 400px;
+	height: 200px;
+	background-image: url('assets/cloud&energyright.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: right;
+	margin-top: 7rem;
 }
 
-.energy-right {
-	margin-right: 20rem;
+.cloud-energy-left {
+	width: 350px;
+	height: 250px;
+	background-image: url('assets/cloud&energyleft.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: left;
+	margin-top: 7rem;
 }
 
-.energy-left {
-	margin-left: 20rem;
-}
-
-.rumput-right {
-	margin-top: 10rem;
+.item-hero-bot {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .rumput-left {
-	margin-top: 10rem;
-}
-
-.bunga-right {
-	margin-top: 3rem;
-	margin-right: 20rem;
-}
-
-.bunga-left {
-	margin-top: 3rem;
-	margin-left: 20rem;
+	width: 500px;
+	height: 350px;
+	background-image: url('assets/rumputLeft.png'); /* Ganti dengan path gambar yang sesuai */
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 .diamond {
-	margin-top: 12rem;
+	width: 250px;
+	height: 80px;
+	background-image: url('assets/diamond.png'); /* Ganti dengan path gambar yang sesuai */
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
-.title {
-	color: #fff;
-	text-align: center;
-	text-shadow: 0px 4px 0px #000;
-	filter: drop-shadow(2px 2px #000);
-	-webkit-text-stroke-width: 1px;
-	-webkit-text-stroke-color: black;
-	font-family: ArcadeClassic;
-	font-size: 88px;
-	font-style: normal;
-	font-weight: 400;
-	line-height: normal;
-	/* margin-bottom: 40px; */
-	@media only screen and (max-width: 766px) {
-		font-size: 40px;
+.rumput-right {
+	width: 500px;
+	height: 350px;
+	background-image: url('assets/rumputRight.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+@media (max-width: 768px) {
+	.rumput-left,
+	.diamond,
+	.rumput-right {
+		width: 100px;
+		background-size: contain;
+		background-repeat: no-repeat;
+		transition: all 0.3s ease;
 	}
 }
 
-.button-start {
-	padding: 10px 40px;
-	margin-top: 30px;
-	.text-button {
-		font-size: 35px;
+@media (max-width: 768px) {
+	.cloud-energy-right,
+	.cloud-energy-left {
+		width: 100px;
+		background-size: contain;
+		background-repeat: no-repeat;
+		transition: all 0.3s ease;
 	}
 }
 
@@ -242,10 +260,33 @@ a {
 	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 	border: 4px solid transparent;
 }
+
+.pixel-corners--wrapper,
+.pixel-corners,
+.text-button {
+	cursor: pointer;
+	transition:
+		transform 0.3s ease-in-out,
+		background-color 0.3s ease-in-out;
+}
+
+.pixel-corners:hover {
+	background-color: #e3ffff;
+}
+
+.text-button:hover {
+	color: #1959da;
+}
+
+.pixel-corners--wrapper:hover {
+	transform: scale(1.1);
+}
+
 .pixel-corners--wrapper {
 	width: fit-content;
 	height: fit-content;
 }
+
 .pixel-corners--wrapper .pixel-corners {
 	display: block;
 	clip-path: polygon(
@@ -364,48 +405,61 @@ a {
 .pixel-corners::after {
 	margin: -4px;
 }
-
-.title-container {
-	display: grid;
-	grid-template-columns: auto auto auto;
-	align-items: center;
-	justify-content: space-around;
-}
-
+/* ----------------------END SECTION HERO CSS---------------------- */
 
 /* ----------------------SECTION ABOUT CSS---------------------- */
+.title {
+	color: #fff;
+	text-align: center;
+	text-shadow: 0px 4px 0px #000;
+	filter: drop-shadow(2px 2px #000);
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: black;
+	font-family: ArcadeClassic;
+	font-size: 88px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	/* margin-bottom: 40px; */
+	@media only screen and (max-width: 766px) {
+		font-size: 40px;
+	}
+}
+
 .item-about {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .flower-left,
 .character-center,
 .flower-right {
-    width: 150px;
-    height: 150px;
-    background-size: contain;
-    background-repeat: no-repeat;
+	width: 150px;
+	height: 150px;
+	background-size: contain;
+	background-repeat: no-repeat;
 }
 
 .flower-left {
-    background-image: url('assets/flower-l.png'); /* Ganti dengan path gambar yang sesuai */
+	background-image: url('assets/flower-l.png'); /* Ganti dengan path gambar yang sesuai */
 }
 
 .character-center {
-    background-image: url('assets/charcter-about.png'); /* Ganti dengan path gambar yang sesuai */
+	background-image: url('assets/charcter-about.png'); /* Ganti dengan path gambar yang sesuai */
 }
 
 .flower-right {
-    background-image: url('assets/flower-r.png');
+	background-image: url('assets/flower-r.png');
 }
 
 .title.with-arrows {
-    background-image: url('assets/arrow-r.png'), url('assets/arrow-l.png');
+	background-image: url('assets/arrow-r.png'), url('assets/arrow-l.png');
 	background-size: 9rem, 9rem;
-    background-repeat: no-repeat, no-repeat;
-    background-position: left 400px center, right 400px center;
+	background-repeat: no-repeat, no-repeat;
+	background-position:
+		left 400px center,
+		right 400px center;
 	transition: all 0.3s ease;
 }
 
@@ -420,43 +474,54 @@ a {
 	display: block;
 	background: #fff;
 	box-shadow:
-	  4px -5px #fff,
-	  8px -10px #fff,
-	  0 5px #212529,
-	  5px 0 #212529,
-	  10px -5px #212529,
-	  13px -8px #212529,
-	  -5px 0 #212529;
-  }
-
-@media (max-width: 768px) { 
-    .title.with-arrows {
-        background-size: 2rem, 2rem;
-        background-position: left center, right center; /* Sesuaikan posisi sesuai kebutuhan */
-        transition: all 0.3s ease;
-    }
-
-    .flower-left,
-    .character-center,
-    .flower-right {
-        width: 100px;
-        background-size: contain;
-        background-repeat: no-repeat;
-		transition: all 0.3s ease;
-    }
+		4px -5px #fff,
+		8px -10px #fff,
+		0 5px #212529,
+		5px 0 #212529,
+		10px -5px #212529,
+		13px -8px #212529,
+		-5px 0 #212529;
 }
 
-@media (min-width: 769px) and (max-width: 1600px) { 
-    .title.with-arrows {
-		background-size: 6rem, 6rem;
-		background-position: left 40px center, right 40px center;
+@media (max-width: 768px) {
+	.title.with-arrows {
+		background-size: 2rem, 2rem;
+		background-position:
+			left center,
+			right center; /* Sesuaikan posisi sesuai kebutuhan */
 		transition: all 0.3s ease;
-    }
+	}
+
+	.flower-left,
+	.character-center,
+	.flower-right {
+		width: 100px;
+		background-size: contain;
+		background-repeat: no-repeat;
+		transition: all 0.3s ease;
+	}
+}
+
+@media (min-width: 769px) and (max-width: 1600px) {
+	.title.with-arrows {
+		background-size: 6rem, 6rem;
+		background-position:
+			left 40px center,
+			right 40px center;
+		transition: all 0.3s ease;
+	}
 }
 
 /* ----------------------END SECTION ABOUT CSS---------------------- */
 
 /* ini responsifny gmn dah pusing gw  */
+
+.title-container {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	align-items: center;
+	justify-content: space-around;
+}
 
 .benefit-content {
 	margin-top: 30px;

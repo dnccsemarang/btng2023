@@ -1,13 +1,6 @@
 // import { useState } from 'react';
 import Navbar from './components/Navbar';
 import Footer from './components/footer';
-import cloudImgRght from './assets/cloudRight.png';
-import cloudImgLft from './assets/cloudLeft.png';
-import energyImg from './assets/energy.png';
-import rumputImgRght from './assets/rumputRight.png';
-import rumputImgLft from './assets/rumputLeft.png';
-import diamondImg from './assets/diamond.png';
-import bungaImg from './assets/bunga.png';
 
 function App() {
 	return (
@@ -15,39 +8,23 @@ function App() {
 			<Navbar />
 			<section className="hero">
 				<div className="hero-content">
-					<div className="img-wrapper-right">
-						<img className="energy-right" src={energyImg} alt="" />
-					</div>
-					<div className="img-wrapper-right">
-						<img className="cloud-right" src={cloudImgRght} alt="" />
+					<div className="cloud-wrapper-right">
+						<i alt="Cloud & energy" className="cloud-energy-right"></i>
 					</div>
 					<h1 className="hero-title">BTNG 2023</h1>
-					<div className="img-wrapper-left">
-						<img className="energy-left" src={energyImg} alt="" />
+					<div className="cloud-wrapper-left">
+						<i alt="Cloud & energy" className="cloud-energy-left"></i>
 					</div>
 					<h3 className="hero-subtitle">Time to level up!</h3>
-					<div className="img-wrapper-left">
-						<img className="cloud-left" src={cloudImgLft} alt="" />
-					</div>
 					<div className="pixel-corners--wrapper">
 						<div className="pixel-corners">
 							<h1 className="text-button">start</h1>
 						</div>
 					</div>
-					<div className="img-wrapper-right">
-						<img className="bunga-right" src={bungaImg} alt="" />
-					</div>
-					<div className="img-wrapper-right">
-						<img className="rumput-right" src={rumputImgRght} alt="" />
-					</div>
-					<div className="img-wrapper-left">
-						<img className="bunga-left" src={bungaImg} alt="" />
-					</div>
-					<div className="img-wrapper-left">
-						<img className="rumput-left" src={rumputImgLft} alt="" />
-					</div>
-					<div className="img-wrapper">
-						<img className="diamond" src={diamondImg} alt="" />
+					<div className="item-hero-bot">
+						<i alt="Rumput" className="rumput-left"></i>
+						<i alt="Diamond" className="diamond"></i>
+						<i alt="Rumput" className="rumput-right"></i>
 					</div>
 				</div>
 			</section>
