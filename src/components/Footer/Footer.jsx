@@ -19,7 +19,7 @@ const Footer = () => {
 						<img src={pipeGrass} alt="" className="pipe-grass-img pipe-grass-left" />
 					</div>
 					<img src={rightArrow} className="arrow arrow-left" alt="" />
-					<div>
+					<div className="daftar-btn-container">
 						<a href="" className="daftar-btn-item">
 							<div className="pixel-corners--wrapper">
 								<div className="pixel-corners">

@@ -1,22 +1,9 @@
-/* Common Styles */
-.daftar-button {
-    margin: 20px 15px;
-    padding-inline: 20px;
-    color: #3f5683;
-    font-family: ArcadeClassic;
-    font-size: 25px;
-    font-weight: 400;
-}
-
-.part-title {
-    text-align: center;
-}
-
-/* Footer Styles */
-.footer {
+footer {
     height: 100%;
     margin-top: 10rem;
 }
+
+/* style for pipe-grass image */
 
 .pipe-grass {
     margin-bottom: 20rem;
@@ -27,8 +14,8 @@
 
 .pipe-grass-img {
     position: absolute;
-    width: 50em;
-    margin-top: -12em;
+    width: 40em;
+    margin-top: -2em;
 }
 
 .pipe-grass-left {
@@ -36,12 +23,29 @@
     margin-left: 50px;
 }
 
+/* display setting for register button area */
 .register-btn-part {
     display: flex;
     justify-content: space-between;
     margin: 30px 0 10em 0;
 }
 
+/* register button */
+
+.daftar-btn-container {
+    margin-left: -25px;
+}
+.daftar-button {
+    margin: 20px 15px;
+    padding-inline: 20px;
+    color: #3f5683;
+    font-family: ArcadeClassic;
+    font-size: 25px;
+    font-weight: 400;
+
+}
+
+/* center for footer title */
 .footer-title {
     display: flex;
     justify-content: center;
@@ -52,6 +56,7 @@
     width: 400px;
 }
 
+/* font style for footer element */
 .footer-title span,
 .part-title {
     color: #fff;
@@ -63,27 +68,33 @@
     font-size: 45px;
 }
 
+/* style for arrow */
 .arrow {
     align-items: center;
     width: 115px;
+
 }
 
 .arrow-left {
     margin-right: 25px !important;
 }
 
+/* partner arean */
 .media-partner-content {
-    display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     gap: 10px;
 }
 
 .partner-logo {
-    margin: 10px;
-    width: 60px;
+    width: 80px;
+    padding: 5px;
 }
 
+.part-title {
+    text-align: center;
+}
+
+/* more info container for element like social media, media partner, contact person */
 .footer-more-info-container {
     display: flex;
     flex-wrap: wrap;
@@ -94,6 +105,7 @@
     margin-top: 20em;
 }
 
+/* for elements inside more info container */
 .media-partner-content,
 .contact-person-content,
 .social-media-content {
@@ -120,9 +132,10 @@ table {
     border-collapse: separate;
 }
 
+/* footer background */
 .footer-bottom-background {
     position: absolute;
-    width: 200vh;
+    width: 188vh;
     left: 0;
     height: 50%;
     background-color: rgb(177, 255, 254);
@@ -133,16 +146,20 @@ table {
     width: 200vh;
 }
 
-/* Responsive Styles */
-@media screen and (max-width: 470px) {
-    .arrow {
-        display: none;
-    }
+
+/* responsive screen */
+@media screen and (max-width:470px) {
 }
 
-@media screen and (max-width: 510px) {
-    .pipe-grass-img {
-        display: none;
+@media screen and (max-width:510px) {
+    .arrow {
+        margin-left: -1px !important;
+    }
+    .pipe-grass-left {
+        margin-left: -50px;
+    }
+    .pipe-grass-right {
+        margin-right: -50px;
     }
 
     .footer-bottom-background {
@@ -154,10 +171,10 @@ table {
     }
 }
 
-@media screen and (min-width: 667px) {
+
+@media screen and (min-width:667px) {
     .footer-more-info-container {
         justify-content: space-between;
-        text-align: unset;
     }
 }
 
@@ -175,9 +192,9 @@ table {
     .pipe-grass {
         justify-content: space-between;
     }
-
+    
     .pipe-grass-img {
-        margin-top: -2em;
+        margin-top: 0;
         width: 20em;
     }
 
@@ -187,6 +204,11 @@ table {
 
     .social-media-content table {
         font-size: 20px;
+    }
+
+    .media-partner-content {
+        display: flex;
+        align-items: center;
     }
 
     .daftar-button {
@@ -202,7 +224,7 @@ table {
     }
 
     .footer-more-info-container {
-        margin-top: -10em;
+        margin-top: 0em;
     }
 }
 
@@ -219,14 +241,9 @@ table {
     .social-media-content table {
         font-size: 25px;
     }
-
-    .partner-logo {
-        width: 50px;
-        padding: 10px;
-    }
 }
 
-@media screen and (min-width: 1296px) {
+@media screen and (min-width: 1200px) {
     .part-title {
         font-size: 40px;
     }
@@ -234,12 +251,6 @@ table {
     .footer-bottom-background {
         height: 40vh;
     }
-
-    .footer-more-info-container {
-        text-align: center;
-    }
-
-    .partner-logo {
-        width: 80px;
-    }
 }
+
+
