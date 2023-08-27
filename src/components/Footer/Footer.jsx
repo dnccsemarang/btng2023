@@ -75,7 +75,7 @@ const Footer = () => {
 									</tr>
 									<tr>
 										<td>Telegram</td>
-										<td>?</td>
+										<td>dncc_official</td>
 									</tr>
 								</table>
 							</div>

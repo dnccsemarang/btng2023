@@ -77,13 +77,15 @@ footer {
 
 /* partner arean */
 .media-partner-content {
+    display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     gap: 10px;
 }
 
 .partner-logo {
-    width: 80px;
-    padding: 5px;
+    margin: 10px;
+    width: 60px;
 }
 
 .part-title {
@@ -168,6 +170,8 @@ table {
 @media screen and (min-width:667px) {
     .footer-more-info-container {
         justify-content: space-between;
+        /* align-items: center; */
+        text-align: unset;
     }
 }
 
@@ -199,11 +203,6 @@ table {
         font-size: 20px;
     }
 
-    .media-partner-content {
-        display: flex;
-        align-items: center;
-    }
-
     .daftar-button {
         margin: 10px 15px;
     }
@@ -214,6 +213,10 @@ table {
 
     .footer-bottom-background {
         height: 30vh;
+    }
+
+    .footer-more-info-container {
+        margin-top: 10em;
     }
 }
 
@@ -232,12 +235,16 @@ table {
     }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1296px) {
     .part-title {
         font-size: 40px;
     }
 
     .footer-bottom-background {
         height: 40vh;
+    }
+    
+    .footer-more-info-container {
+        text-align: center;
     }
 }
