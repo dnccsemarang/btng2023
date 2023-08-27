@@ -1,12 +1,9 @@
 import React from "react";
-import udinus from "/FooterAssets/udinus.png";
-import leftArrow from "/FooterAssets/left-arrow.svg";
-import rightArrow from "/FooterAssets/right-arrow.svg";
-import pipeGrass from "/FooterAssets/grass-pipe.png";
-import smallCastile from "/FooterAssets/castile2.png";
-import bigCastile from "/FooterAssets/castile.png";
-import mountain from "/FooterAssets/mount.png";
-import footerBackground from "/FooterAssets/footer-bg.png"
+import udinus from "../../assets/FooterAssets/udinus.png";
+import leftArrow from "../../assets/FooterAssets/left-arrow.svg";
+import rightArrow from "../../assets/FooterAssets/right-arrow.svg";
+import pipeGrass from "../../assets/FooterAssets/grass-pipe.png";
+import footerBackground from "../../assets/FooterAssets/footer-bg.png"
 import './Footer.css'
 const Footer = () => {
 	return (
@@ -19,19 +16,21 @@ const Footer = () => {
 			<div className="footer-content">
 				<div className="register-btn-part">
 					<div className="pipe-grass">
-						<img src={pipeGrass} alt="" className="pipe-grass-img" />
+						<img src={pipeGrass} alt="" className="pipe-grass-img pipe-grass-left" />
 					</div>
-					<img src={rightArrow} className="arrow" alt="" />
-					<a href="" className="daftar-btn-item">
-						<div className="pixel-corners--wrapper">
-							<div className="pixel-corners">
-								<h1 className="daftar-button">DAFTAR</h1>
+					<img src={rightArrow} className="arrow arrow-left" alt="" />
+					<div>
+						<a href="" className="daftar-btn-item">
+							<div className="pixel-corners--wrapper">
+								<div className="pixel-corners">
+									<h1 className="daftar-button">DAFTAR</h1>
+								</div>
 							</div>
-						</div>
-					</a>
-					<img src={leftArrow} className="arrow" alt="" />
+						</a>
+					</div>
+					<img src={leftArrow} className="arrow arrow-right" alt="" />
 					<div className="pipe-grass">
-						<img src={pipeGrass} alt="" className="pipe-grass-img" />
+						<img src={pipeGrass} alt="" className="pipe-grass-img pipe-grass-right" />
 					</div>
 				</div>
 				<div className="footer-more-info-container">
@@ -92,8 +91,10 @@ const Footer = () => {
 							</ul>
 						</div>
 					</div>
-
 				</div>
+			</div>
+			<div className="footer-bottom-background">
+				<img src={footerBackground} alt="" className="footer-bg-img" />
 			</div>
 		</footer>
 	);

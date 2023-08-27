@@ -41,7 +41,6 @@ const Navbar = () => {
 const NavbarContainer = styled.nav`
 	display: flex;
 	justify-content: space-between;
-	/* background-color: black; */
 	align-items: center;
 `;
 
@@ -96,12 +95,20 @@ const NavLink = styled.a`
 	color: #fff;
 	font-family: var(--font-family2);
 	&:hover {
-		color: var(--third-color);
+		color: #fdf534;
+		text-decoration: none !important;
 	}
+
 	font-size: 1.3rem;
 	display: block;
 	@media only screen and (min-width: 1024px) {
 		font-size: 2rem;
+	}
+	@media only screen and (min-width: 650px) {
+		text-shadow: 0px 1px 0px #000;
+		filter: drop-shadow(1px 2px #000);
+		-webkit-text-stroke-width: 1px;
+		-webkit-text-stroke-color: black;
 	}
 `;
 

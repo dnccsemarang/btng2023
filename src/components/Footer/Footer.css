@@ -1,31 +1,47 @@
 footer {
     height: 100%;
-}
-
-.pipe-grass {
-    display: flex;
-    flex-direction: column;
-    /* justify-content: ce/nter; */
-    align-items: center;
-}
-
-.pipe {
-    position: absolute;
-    height: 125px;
-    width: 80px;
-}
-
-footer {
     margin-top: 10rem;
 }
 
+/* style for pipe-grass image */
+
+.pipe-grass {
+    margin-bottom: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pipe-grass-img {
+    position: absolute;
+    width: 50em;
+    margin-top: -12em;
+}
+
+.pipe-grass-left {
+    transform: scaleX(-1);
+    margin-left: 50px;
+}
+
+/* display setting for register button area */
 .register-btn-part {
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
     margin: 30px 0 10em 0;
 }
 
+/* register button */
+.daftar-button {
+    margin: 20px 15px;
+    padding-inline: 20px;
+    color: #3f5683;
+    font-family: ArcadeClassic;
+    font-size: 25px;
+    font-weight: 400;
+
+}
+
+/* center for footer title */
 .footer-title {
     display: flex;
     justify-content: center;
@@ -36,6 +52,7 @@ footer {
     width: 400px;
 }
 
+/* font style for footer element */
 .footer-title span,
 .part-title {
     color: #fff;
@@ -47,39 +64,25 @@ footer {
     font-size: 45px;
 }
 
-.pipe-grass-img {
-    position: absolute;
-    width: 50em;
-    margin-top: -12em;
-}
-
+/* style for arrow */
 .arrow {
-    margin-right: 15px;
-    width: 75px;
-}
-
-.daftar-button {
-    margin: 20px 15px;
-    padding-inline: 20px;
-    color: #3f5683;
-    font-family: ArcadeClassic;
-    font-size: 25px;
-    font-weight: 400;
+    align-items: center;
+    width: 115px;
 
 }
 
-.daftar-btn-item {
-    margin-top: -40px;
-    /* margin-bottom: 20em; */
+.arrow-left {
+    margin-right: 25px !important;
 }
 
+/* partner arean */
 .media-partner-content {
     flex-wrap: wrap;
     gap: 10px;
 }
 
 .partner-logo {
-    width: 40px;
+    width: 80px;
     padding: 5px;
 }
 
@@ -87,6 +90,7 @@ footer {
     text-align: center;
 }
 
+/* more info container for element like social media, media partner, contact person */
 .footer-more-info-container {
     display: flex;
     flex-wrap: wrap;
@@ -94,8 +98,10 @@ footer {
     text-align: center;
     gap: 20px;
     padding-bottom: 10em;
+    margin-top: 20em;
 }
 
+/* for elements inside more info container */
 .media-partner-content,
 .contact-person-content,
 .social-media-content {
@@ -118,43 +124,48 @@ footer {
 }
 
 table {
+    border-spacing: 10px;
     border-collapse: separate;
 }
 
-.pipe-left {
+/* footer background */
+.footer-bottom-background {
+    position: absolute;
+    width: 200vh;
     left: 0;
+    height: 50%;
+    background-color: rgb(177, 255, 254);
 }
 
-.grass-1 {
-    width: 200px;
-    height: 50px;
+.footer-bg-img {
+    position: absolute;
+    width: 200vh;
 }
 
-.arrow {
-    width: 115px;
-}
 
-.daftar-button {
-    margin: 20px 15px;
-    padding-inline: 20px;
-    color: #3f5683;
-    font-family: ArcadeClassic;
-    font-size: 25px;
-    font-weight: 400;
-
-}
-
-.daftar-btn-item {
-    margin-top: -40px;
-}
-
-@media screen and (max-width:510px) {
+/* responsive screen */
+@media screen and (max-width:470px) {
     .arrow {
         display: none;
     }
 }
 
-@media screen and (min-width:640px) {
+@media screen and (max-width:510px) {
+    .pipe-grass-img {
+        display: none;
+    }
+
+    .footer-bottom-background {
+        height: 20%;
+    }
+
+    .footer-bg-img {
+        width: 100vh;
+    }
+}
+
+
+@media screen and (min-width:667px) {
     .footer-more-info-container {
         justify-content: space-between;
     }
@@ -162,15 +173,22 @@ table {
 
 @media screen and (max-width: 767px) {
     .pipe-grass-img {
-        display: none;
+        justify-content: center;
+        align-items: center;
     }
 
     .arrow {
+        margin: 0 0 40px 20px;
         width: 55px !important;
     }
 
-    .arrow.left-arrow {
-        display: none;
+    .pipe-grass {
+        justify-content: space-between;
+    }
+    
+    .pipe-grass-img {
+        margin-top: -2em;
+        width: 20em;
     }
 
     .part-title {
@@ -189,6 +207,14 @@ table {
     .daftar-button {
         margin: 10px 15px;
     }
+
+    .footer-bg-img {
+        width: 120vh;
+    }
+
+    .footer-bottom-background {
+        height: 30vh;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -197,7 +223,7 @@ table {
     }
 
     .partner-logo {
-        width: 40px;
+        width: 82px;
         padding: 5px;
     }
 
@@ -209,5 +235,9 @@ table {
 @media screen and (min-width: 1200px) {
     .part-title {
         font-size: 40px;
+    }
+
+    .footer-bottom-background {
+        height: 40vh;
     }
 }
