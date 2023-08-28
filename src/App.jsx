@@ -8,12 +8,23 @@ function App() {
 			<Navbar />
 			<section className="hero">
 				<div className="hero-content">
+					<div className="cloud-wrapper-right">
+						<i alt="Cloud & energy" className="cloud-energy-right"></i>
+					</div>
 					<h1 className="hero-title">BTNG 2023</h1>
+					<div className="cloud-wrapper-left">
+						<i alt="Cloud & energy" className="cloud-energy-left"></i>
+					</div>
 					<h3 className="hero-subtitle">Time to level up!</h3>
 					<div className="pixel-corners--wrapper">
 						<div className="pixel-corners">
 							<h1 className="text-button">start</h1>
 						</div>
+					</div>
+					<div className="item-hero-bot">
+						<i alt="Rumput" className="rumput-left"></i>
+						<i alt="Diamond" className="diamond"></i>
+						<i alt="Rumput" className="rumput-right"></i>
 					</div>
 				</div>
 			</section>
