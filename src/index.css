@@ -71,9 +71,9 @@ a {
 			font-style: normal;
 			font-weight: 400;
 			line-height: normal;
-			font-size: 118px;
-			@media only screen and (min-width: 900px) {
-				font-size: 150px;
+			font-size: clamp(100px, 20vw, 160px);
+			@media only screen and (max-width: 1250px) {
+				font-size: clamp(60px, 10vw, 100px);
 			}
 		}
 
@@ -159,18 +159,49 @@ a {
 	background-position: center;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1110px) {
 	.rumput-left,
-	.diamond,
 	.rumput-right {
-		width: 100px;
+		width: 370px;
+		height: 250px;
 		background-size: contain;
 		background-repeat: no-repeat;
 		transition: all 0.3s ease;
 	}
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1110px) {
+	.diamond {
+		width: 200px;
+		height: 80px;
+		background-size: contain;
+		background-repeat: no-repeat;
+		transition: all 0.3s ease;
+	}
+}
+
+@media (max-width: 700px) {
+	.rumput-left,
+	.rumput-right {
+		width: 370px;
+		height: 150px;
+		background-size: contain;
+		background-repeat: no-repeat;
+		transition: all 0.3s ease;
+	}
+}
+
+@media (max-width: 1110px) {
+	.cloud-energy-right,
+	.cloud-energy-left {
+		width: 250px;
+		background-size: contain;
+		background-repeat: no-repeat;
+		transition: all 0.3s ease;
+	}
+}
+
+@media (max-width: 925px) {
 	.cloud-energy-right,
 	.cloud-energy-left {
 		width: 100px;
@@ -180,13 +211,23 @@ a {
 	}
 }
 
+@media (max-width: 500px) {
+	.cloud-energy-right {
+		width: 100px;
+		background-size: contain;
+		background-repeat: no-repeat;
+		transition: all 0.3s ease;
+		background-image: url('assets/cloud.png');
+	}
+}
+
 .text-button {
 	margin-top: 10px;
 	padding-inline: 20px;
 	padding-top: 5px;
 	padding-bottom: 5px;
 	text-align: center;
-	margin-left: 5px;
+	margin-left: 9px;
 	color: #3f5683;
 	font-family: ArcadeClassic;
 	font-size: 50px;
@@ -195,26 +236,11 @@ a {
 	line-height: normal;
 }
 
-.balloon {
-	margin-top: 20px;
-	@media only screen and (min-width: 767px) {
-		margin-inline: 5rem;
-	}
-}
-.balloon p {
-	font-size: 20px;
-	font-style: normal;
-	font-weight: 400;
-	line-height: normal;
-	@media only screen and (min-width: 900px) {
-		font-size: 40px;
-	}
-}
-
 .pixel-corners,
 .pixel-corners--wrapper {
+	width: 100%;
 	margin: auto;
-	margin-top: 45px;
+	margin-top: 2rem;
 	background-color: #fff;
 	clip-path: polygon(
 		0px calc(100% - 20px),
@@ -405,6 +431,32 @@ a {
 .pixel-corners::after {
 	margin: -4px;
 }
+
+.pixel-corners--wrapper {
+	align-items: center;
+	@media only screen and (max-width: 700px) {
+		width: 150px;
+		height: 80px;
+		transition: all 0.3s ease;
+	}
+}
+
+@media only screen and (max-width: 700px) {
+	.pixel-corners,
+	.pixel-corners--wrapper {
+		width: 150px;
+		height: 80px;
+		transition: all 0.3s ease;
+	}
+}
+
+.text-button {
+	@media only screen and (max-width: 700px) {
+		font-size: 40px;
+		margin-left: 0;
+		transition: all 0.3s ease;
+	}
+}
 /* ----------------------END SECTION HERO CSS---------------------- */
 
 /* ----------------------SECTION ABOUT CSS---------------------- */
@@ -461,6 +513,22 @@ a {
 		left 400px center,
 		right 400px center;
 	transition: all 0.3s ease;
+}
+
+.balloon {
+	margin-top: 20px;
+	@media only screen and (min-width: 767px) {
+		margin-inline: 5rem;
+	}
+}
+.balloon p {
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	@media only screen and (min-width: 900px) {
+		font-size: 40px;
+	}
 }
 
 .bubble-buttom {
