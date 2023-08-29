@@ -1,10 +1,9 @@
 // import { useState } from 'react';
 import Navbar from './components/Navbar';
-import Footer from './components/footer';
+// import Footer from './components/footer';
 import Divisi from './components/Divisi';
 
-
-import Footer from './components/Footer/Footer';
+// import Footer from './components/Footer/Footer';
 
 function App() {
 	return (
@@ -49,7 +48,7 @@ function App() {
 					<i alt="Pink Flower" className="flower-right"></i>
 				</div>
 			</section>
-			<section className="benefit">
+			{/* <section className="benefit">
 				<div className="title-container">
 					<div className="title-item">
 						<i className="nes-icon is-medium star"></i>
@@ -91,7 +90,7 @@ function App() {
 						<h2>Mendapatkan sertifikat hasil pelatihan</h2>
 					</div>
 				</div>
-			</section>
+			</section> */}
 
 			<section className="jadwal">
 				<h1 className="title">jadwal</h1>
@@ -110,10 +109,9 @@ function App() {
 						<p>Penutupan : Sabtu, 28 Oktober 2023</p>
 					</li>
 				</ul>
-				<h1 className="title">CHOOSE YOUR DIVISION</h1>
 			</section>
 			<Divisi />
-			<Footer />
+			{/* <Footer /> */}
 		</div>
 	);
 }
