@@ -12,6 +12,7 @@
 }
 
 body {
+	overflow-x: hidden;
 	height: 100%;
 	margin: 0;
 	background-image: url('./assets/bg.png');
@@ -21,6 +22,14 @@ body {
 }
 
 .container {
+	@media only screen and (min-width: 900px) {
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+}
+
+section,
+footer {
 	margin: 35px;
 	@media only screen and (min-width: 900px) {
 		margin-top: 50px;
@@ -28,11 +37,6 @@ body {
 		margin-left: 100px;
 		margin-right: 100px;
 	}
-}
-
-section {
-	margin-top: 30px;
-	margin-bottom: 30px;
 }
 
 ul {
@@ -49,9 +53,11 @@ a {
 	text-decoration: none;
 }
 
+/* ----------------------SECTION HERO CSS---------------------- */
 .hero {
-	padding-top: 8rem;
-	padding-bottom: 8rem;
+	padding-top: 3rem;
+	margin-left: 0 !important;
+	margin-right: 0 !important;
 	.hero-content {
 		text-align: center;
 
@@ -66,9 +72,9 @@ a {
 			font-style: normal;
 			font-weight: 400;
 			line-height: normal;
-			font-size: 118px;
-			@media only screen and (min-width: 900px) {
-				font-size: 150px;
+			font-size: clamp(100px, 20vw, 160px);
+			@media only screen and (max-width: 1250px) {
+				font-size: clamp(60px, 10vw, 100px);
 			}
 		}
 
@@ -87,29 +93,132 @@ a {
 	}
 }
 
-.title {
-	color: #fff;
-	text-align: center;
-	text-shadow: 0px 4px 0px #000;
-	filter: drop-shadow(2px 2px #000);
-	-webkit-text-stroke-width: 1px;
-	-webkit-text-stroke-color: black;
-	font-family: ArcadeClassic;
-	font-size: 88px;
-	font-style: normal;
-	font-weight: 400;
-	line-height: normal;
-	/* margin-bottom: 40px; */
-	@media only screen and (max-width: 766px) {
-		font-size: 50px;
+.cloud-wrapper-right {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	height: 0;
+}
+
+.cloud-wrapper-left {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	height: 0;
+}
+
+.cloud-energy-right {
+	width: 400px;
+	height: 200px;
+	background-image: url('assets/cloud&energyright.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: right;
+	margin-top: 7rem;
+}
+
+.cloud-energy-left {
+	width: 350px;
+	height: 250px;
+	background-image: url('assets/cloud&energyleft.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: left;
+	margin-top: 7rem;
+}
+
+.item-hero-bot {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.rumput-left {
+	width: 500px;
+	height: 350px;
+	background-image: url('assets/rumputLeft.png'); /* Ganti dengan path gambar yang sesuai */
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.diamond {
+	width: 250px;
+	height: 80px;
+	background-image: url('assets/diamond.png'); /* Ganti dengan path gambar yang sesuai */
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.rumput-right {
+	width: 500px;
+	height: 350px;
+	background-image: url('assets/rumputRight.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+@media (max-width: 1110px) {
+	.rumput-left,
+	.rumput-right {
+		width: 370px;
+		height: 250px;
+		background-size: contain;
+		background-repeat: no-repeat;
+		transition: all 0.3s ease;
 	}
 }
 
-.button-start {
-	padding: 10px 40px;
-	margin-top: 30px;
-	.text-button {
-		font-size: 35px;
+@media (max-width: 1110px) {
+	.diamond {
+		width: 200px;
+		height: 80px;
+		background-size: contain;
+		background-repeat: no-repeat;
+		transition: all 0.3s ease;
+	}
+}
+
+@media (max-width: 700px) {
+	.rumput-left,
+	.rumput-right {
+		width: 370px;
+		height: 150px;
+		background-size: contain;
+		background-repeat: no-repeat;
+		transition: all 0.3s ease;
+	}
+}
+
+@media (max-width: 1110px) {
+	.cloud-energy-right,
+	.cloud-energy-left {
+		width: 250px;
+		background-size: contain;
+		background-repeat: no-repeat;
+		transition: all 0.3s ease;
+	}
+}
+
+@media (max-width: 925px) {
+	.cloud-energy-right,
+	.cloud-energy-left {
+		width: 100px;
+		background-size: contain;
+		background-repeat: no-repeat;
+		transition: all 0.3s ease;
+	}
+}
+
+@media (max-width: 500px) {
+	.cloud-energy-right {
+		width: 100px;
+		background-size: contain;
+		background-repeat: no-repeat;
+		transition: all 0.3s ease;
+		background-image: url('assets/cloud.png');
 	}
 }
 
@@ -119,7 +228,7 @@ a {
 	padding-top: 5px;
 	padding-bottom: 5px;
 	text-align: center;
-	margin-left: 5px;
+	margin-left: 9px;
 	color: #3f5683;
 	font-family: ArcadeClassic;
 	font-size: 50px;
@@ -128,26 +237,11 @@ a {
 	line-height: normal;
 }
 
-.balloon {
-	margin-top: 20px;
-	@media only screen and (min-width: 767px) {
-		margin-inline: 5rem;
-	}
-}
-.balloon p {
-	font-size: 20px;
-	font-style: normal;
-	font-weight: 400;
-	line-height: normal;
-	@media only screen and (min-width: 900px) {
-		font-size: 40px;
-	}
-}
-
 .pixel-corners,
 .pixel-corners--wrapper {
+	width: 100%;
 	margin: auto;
-	margin-top: 45px;
+	margin-top: 2rem;
 	background-color: #fff;
 	clip-path: polygon(
 		0px calc(100% - 20px),
@@ -193,12 +287,34 @@ a {
 	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 	border: 4px solid transparent;
 }
+
+.pixel-corners--wrapper,
+.pixel-corners,
+.text-button {
+	cursor: pointer;
+	transition:
+		transform 0.3s ease-in-out,
+		background-color 0.3s ease-in-out;
+}
+
+.pixel-corners:hover {
+	background-color: #e3ffff;
+}
+
+.text-button:hover {
+	color: #1959da;
+}
+
+.pixel-corners--wrapper:hover {
+	transform: scale(1.1);
+}
+
 .pixel-corners--wrapper {
 	width: fit-content;
 	height: fit-content;
 }
+
 .pixel-corners--wrapper .pixel-corners {
-	display: block;
 	clip-path: polygon(
 		4px 20px,
 		8px 20px,
@@ -316,17 +432,157 @@ a {
 	margin: -4px;
 }
 
-.item {
-	display: flex;
-	justify-content: end;
-	.nes-kirby {
-		display: flex;
-		align-items: end;
-		margin-top: 30px;
-		padding: 50px;
-		width: 62px;
+.pixel-corners--wrapper {
+	align-items: center;
+	@media only screen and (max-width: 700px) {
+		width: 150px;
+		height: 80px;
+		transition: all 0.3s ease;
 	}
 }
+
+@media only screen and (max-width: 700px) {
+	.pixel-corners,
+	.pixel-corners--wrapper {
+		width: 150px;
+		height: 80px;
+		transition: all 0.3s ease;
+	}
+}
+
+.text-button {
+	@media only screen and (max-width: 700px) {
+		font-size: 40px;
+		margin-left: 0;
+		transition: all 0.3s ease;
+	}
+}
+/* ----------------------END SECTION HERO CSS---------------------- */
+
+/* ----------------------SECTION ABOUT CSS---------------------- */
+.title {
+	color: #fff;
+	text-align: center;
+	text-shadow: 0px 4px 0px #000;
+	filter: drop-shadow(2px 2px #000);
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: black;
+	font-family: ArcadeClassic;
+	font-size: 88px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	/* margin-bottom: 40px; */
+	@media only screen and (max-width: 766px) {
+		font-size: 40px;
+	}
+}
+
+.item-about {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.flower-left,
+.character-center,
+.flower-right {
+	width: 150px;
+	height: 150px;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.flower-left {
+	background-image: url('assets/flower-l.png'); /* Ganti dengan path gambar yang sesuai */
+}
+
+.character-center {
+	background-image: url('assets/charcter-about.png'); /* Ganti dengan path gambar yang sesuai */
+}
+
+.flower-right {
+	background-image: url('assets/flower-r.png');
+}
+
+.title.with-arrows {
+	background-image: url('assets/arrow-r.png'), url('assets/arrow-l.png');
+	background-size: 9rem, 9rem;
+	background-repeat: no-repeat, no-repeat;
+	background-position:
+		left 400px center,
+		right 400px center;
+	transition: all 0.3s ease;
+}
+
+.balloon {
+	margin-top: 20px;
+	@media only screen and (min-width: 767px) {
+		margin-inline: 5rem;
+	}
+}
+.balloon p {
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	@media only screen and (min-width: 900px) {
+		font-size: 40px;
+	}
+}
+
+.bubble-buttom {
+	position: absolute;
+	bottom: -25px; /* Adjust the distance from the bubble */
+	left: 50%;
+	transform: translateX(-50%);
+	width: 5px;
+	height: 21px;
+	content: '';
+	display: block;
+	background: #fff;
+	box-shadow:
+		4px -5px #fff,
+		8px -10px #fff,
+		0 5px #212529,
+		5px 0 #212529,
+		10px -5px #212529,
+		13px -8px #212529,
+		-5px 0 #212529;
+}
+
+@media (max-width: 768px) {
+	.title.with-arrows {
+		background-size: 2rem, 2rem;
+		background-position:
+			left center,
+			right center; /* Sesuaikan posisi sesuai kebutuhan */
+		transition: all 0.3s ease;
+	}
+
+	.flower-left,
+	.character-center,
+	.flower-right {
+		width: 100px;
+		background-size: contain;
+		background-repeat: no-repeat;
+		transition: all 0.3s ease;
+	}
+}
+
+@media (min-width: 769px) and (max-width: 1600px) {
+	.title.with-arrows {
+		background-size: 6rem, 6rem;
+		background-position:
+			left 40px center,
+			right 40px center;
+		transition: all 0.3s ease;
+	}
+}
+
+/* ----------------------END SECTION ABOUT CSS---------------------- */
+
+/* ini responsifny gmn dah pusing gw  */
 
 .title-container {
 	display: grid;
@@ -334,8 +590,6 @@ a {
 	align-items: center;
 	justify-content: space-around;
 }
-
-/* ini responsifny gmn dah pusing gw  */
 
 .benefit-content {
 	margin-top: 30px;

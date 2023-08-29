@@ -4,6 +4,7 @@ import Footer from './components/footer';
 import Divisi from './components/Divisi';
 
 
+import Footer from './components/Footer/Footer';
 
 function App() {
 	return (
@@ -11,26 +12,41 @@ function App() {
 			<Navbar />
 			<section className="hero">
 				<div className="hero-content">
+					<div className="cloud-wrapper-right">
+						<i alt="Cloud & energy" className="cloud-energy-right"></i>
+					</div>
 					<h1 className="hero-title">BTNG 2023</h1>
+					<div className="cloud-wrapper-left">
+						<i alt="Cloud & energy" className="cloud-energy-left"></i>
+					</div>
 					<h3 className="hero-subtitle">Time to level up!</h3>
 					<div className="pixel-corners--wrapper">
 						<div className="pixel-corners">
 							<h1 className="text-button">start</h1>
 						</div>
 					</div>
+					<div className="item-hero-bot">
+						<i alt="Rumput" className="rumput-left"></i>
+						<i alt="Diamond" className="diamond"></i>
+						<i alt="Rumput" className="rumput-right"></i>
+					</div>
 				</div>
 			</section>
+
 			<section className="about">
-				<h1 className="title">About BTNG</h1>
-				<div className="nes-balloon from-right balloon">
+				<h1 className="title with-arrows">About BTNG</h1>
+				<div className="nes-balloon balloon">
 					<p>
 						BTNG (Basic Training Next Generation) adalah acara DNCC sebagai gerbang awal bagi mahasiswa yang ingin
 						menjadi anggota di UKM DNCC. Acara ini bertujuan untuk memberikan pelatihan kepada calon anggota baru agar
 						memiliki pengetahuan yang unggul dalam divisi yang dipilih.
 					</p>
+					<div className="bubble-buttom"></div>
 				</div>
-				<div className="item">
-					<i className="nes-kirby"></i>
+				<div className="item-about">
+					<i alt="Pink Flower" className="flower-left"></i>
+					<i alt="Character About" className="character-center"></i>
+					<i alt="Pink Flower" className="flower-right"></i>
 				</div>
 			</section>
 			<section className="benefit">
