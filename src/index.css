@@ -584,6 +584,11 @@ a {
 
 /* ini responsifny gmn dah pusing gw  */
 
+.jadwal {
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+}
+
 .title-container {
 	display: grid;
 	grid-template-columns: auto auto auto;
