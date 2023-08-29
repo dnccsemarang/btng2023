@@ -1,9 +1,7 @@
 // import { useState } from 'react';
 import Navbar from './components/Navbar';
-// import Footer from './components/footer';
 import Divisi from './components/Divisi';
-
-// import Footer from './components/Footer/Footer';
+import Footer from './components/Footer/Footer';
 
 function App() {
 	return (
@@ -111,7 +109,7 @@ function App() {
 				</ul>
 			</section>
 			<Divisi />
-			{/* <Footer /> */}
+			<Footer />
 		</div>
 	);
 }

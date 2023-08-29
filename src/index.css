@@ -750,8 +750,6 @@ img.icon-multimedia {
 	right: -3vw;
 }
 
-/* ----------------------END SECTION DIVISI CSS---------------------- */
-
 @media (max-width: 980px) {
 	.atas,
 	.bawah {
@@ -865,3 +863,4 @@ img.icon-multimedia {
 		right: -5vw;
 	}
 }
+/* ----------------------END SECTION DIVISI CSS---------------------- */
