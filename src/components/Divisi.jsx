@@ -22,7 +22,7 @@ const Divisi = () => {
 					<div className="content">
 						<h3>Divisi Mobile</h3>
 						<p>Mempelajari bahasa dart dan framework flutter untuk membuat aplikasi smartphone.</p>
-						<a href="">lihat silabus &gt;&gt;&gt;</a>
+						<a href="">Lihat silabus &gt;&gt;&gt;</a>
 					</div>
 					<img className="icon-divisi icon-mobile" src={iconMobile} alt="" />
 				</div>
@@ -31,7 +31,7 @@ const Divisi = () => {
 					<div className="content">
 						<h3>Divisi WEB</h3>
 						<p>Mempelajari HTML, CSS, Bootstrap untuk membuat sebuah web.</p>
-						<a href="">lihat silabus &gt;&gt;&gt;</a>
+						<a href="">Lihat silabus &gt;&gt;&gt;</a>
 					</div>
 					<img className="icon-divisi icon-web" src={iconWeb} alt="" />
 				</div>
@@ -40,7 +40,7 @@ const Divisi = () => {
 					<div className="content">
 						<h3>Divisi Jaringan</h3>
 						<p>Mempelajari Cisco, Paket Tracer, dll. untuk menghubungkan beberapa komputer.</p>
-						<a href="">lihat silabus &gt;&gt;&gt;</a>
+						<a href="">Lihat silabus &gt;&gt;&gt;</a>
 					</div>
 					<img className="icon-divisi icon-jaringan" src={iconJaringan} alt="" />
 				</div>
@@ -51,7 +51,7 @@ const Divisi = () => {
 					<div className="content">
 						<h3>Divisi Data Analist</h3>
 						<p>Mempelajari analisis dan riset data dengan menggunakan tools tertentu.</p>
-						<a href="">lihat silabus &gt;&gt;&gt;</a>
+						<a href="">Lihat silabus &gt;&gt;&gt;</a>
 					</div>
 					<img className="icon-divisi icon-data" src={iconData} alt="" />
 				</div>
@@ -60,7 +60,7 @@ const Divisi = () => {
 					<div className="content">
 						<h3>Divisi Game</h3>
 						<p>Mempelajari pengembangan dan pengelolaan game.</p>
-						<a href="">lihat silabus &gt;&gt;&gt;</a>
+						<a href="">Lihat silabus &gt;&gt;&gt;</a>
 					</div>
 					<img className="icon-divisi icon-game" src={iconGame} alt="" />
 				</div>
@@ -69,7 +69,7 @@ const Divisi = () => {
 					<div className="content">
 						<h3>Divisi Multimedia</h3>
 						<p>Mempelajari software desain seperti Adobe Photoshop, Illustrator, dll.</p>
-						<a href="">lihat silabus &gt;&gt;&gt;</a>
+						<a href="">Lihat silabus &gt;&gt;&gt;</a>
 					</div>
 					<img className="icon-divisi icon-multimedia" src={iconMultimedia} alt="" />
 				</div>
