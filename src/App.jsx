@@ -46,7 +46,7 @@ function App() {
 					<i alt="Pink Flower" className="flower-right"></i>
 				</div>
 			</section>
-			{/* <section className="benefit">
+			<section className="benefit">
 				<div className="title-container">
 					<div className="title-item">
 						<i className="nes-icon is-medium star"></i>
@@ -88,7 +88,7 @@ function App() {
 						<h2>Mendapatkan sertifikat hasil pelatihan</h2>
 					</div>
 				</div>
-			</section> */}
+			</section>
 
 			<section className="jadwal">
 				<h1 className="title">jadwal</h1>

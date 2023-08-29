@@ -582,7 +582,7 @@ a {
 
 /* ----------------------END SECTION ABOUT CSS---------------------- */
 
-/* ini responsifny gmn dah pusing gw  */
+/* ----------------------START SECTION BENEFIT CSS---------------------- */
 
 .title-container {
 	display: grid;
@@ -622,6 +622,14 @@ a {
 	margin-left: 20px;
 	font-family: var(--font-family2);
 }
+
+@media (max-width: 768px) {
+	.benefit-item {
+		grid-template-columns: 1fr;
+	}
+}
+
+/* ----------------------END SECTION BENEFIT CSS---------------------- */
 
 /* ----------------------START SECTION DIVISI CSS---------------------- */
 
@@ -800,7 +808,7 @@ img.icon-multimedia {
 	}
 }
 
-@media (max-width: 700px) {
+@media (max-width: 600px) {
 	.segment-devisi {
 		width: 70vw;
 	}
