@@ -1,6 +1,7 @@
 // import { useState } from 'react';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer/Footer';
+import Jadwal from './components/Jadwal';
 
 function App() {
 	return (
@@ -90,7 +91,7 @@ function App() {
 			</section>
 
 			<section className="jadwal">
-				<p>nama saya vinandra</p>
+				<Jadwal />
 			</section>
 			<section className="devisi">
 				<div className="devisi-mobil">
