@@ -1,8 +1,7 @@
-import React from "react";
-import udinus from "../../assets/FooterAssets/udinus.png";
-import pipeGrass from "../../assets/FooterAssets/grass-pipe-2.png";
-import footerBackground from "../../assets/FooterAssets/footer-bg.png"
-import './Footer.css'
+import udinus from '../../assets/FooterAssets/udinus.png';
+import pipeGrass from '../../assets/FooterAssets/grass-pipe-2.png';
+import footerBackground from '../../assets/FooterAssets/footer-bg.png';
+import './Footer.css';
 const Footer = () => {
 	return (
 		<>
@@ -76,7 +75,6 @@ const Footer = () => {
 										</tr>
 									</table>
 								</div>
-
 							</div>
 						</div>
 						<div className="contact-person-part">
@@ -91,7 +89,7 @@ const Footer = () => {
 					</div>
 				</div>
 				<div className="footer-background-container">
-					<img src={footerBackground} alt="" className="footer-bg-img"/>
+					<img src={footerBackground} alt="" className="footer-bg-img" />
 				</div>
 			</footer>
 		</>
