@@ -17,7 +17,7 @@ const Footer = () => {
 					<div className="register-btn-part">
 						<div className="daftar-btn-container">
 							<div className="logo-pixel-corners--wrapper daftar-btn">
-								<div className="logo-pixel-corners">
+								<div className="logo-pixel">
 									<h1 className="text-button text-daftar">daftar</h1>
 								</div>
 							</div>
