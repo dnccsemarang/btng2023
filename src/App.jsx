@@ -1,5 +1,6 @@
 // import { useState } from 'react';
 import Navbar from './components/Navbar';
+import Divisi from './components/Divisi';
 import Footer from './components/Footer/Footer';
 import Jadwal from './components/Jadwal';
 
@@ -125,6 +126,7 @@ function App() {
 					<a href="">lihat silabus</a>
 				</div>
 			</section>
+			<Divisi />
 			<Footer />
 		</div>
 	);
