@@ -16,22 +16,15 @@ const Footer = () => {
 				<div className="footer-content">
 					<div className="register-btn-part">
 						<div className="daftar-btn-container">
-							<span className="pipe-grass-area">
-								<div></div>
-							</span>
 							<div className="logo-pixel-corners--wrapper daftar-btn">
 								<div className="logo-pixel-corners">
-									<h1 className="text-button text-daftar">start</h1>
+									<h1 className="text-button text-daftar">daftar</h1>
 								</div>
 							</div>
-							<span className="pipe-grass-area">
-								<div></div>
-							</span>
 						</div>
 					</div>
 					<div className="footer-more-info-container">
 						<div className="more-info-content">
-
 							<div className="media-partner-part">
 								<span className="part-title">media partner</span>
 								<div className="media-partner-content">
@@ -104,9 +97,9 @@ const Footer = () => {
 						</div>
 					</div>
 				</div>
-				<div className="footer-background-container">
-					<img src={footerBackground} alt="" className="footer-bg-img" />
-				</div>
+					<div className="footer-background">
+						<div className="footer-bg-img"></div>
+					</div>
 			</footer>
 		</>
 	);
