@@ -15,7 +15,7 @@ footer {
 .footer-title span,
 .part-title {
     color: #fff;
-    filter: drop-shadow(1px 2px #000);
+    filter: drop-shadow(2px 4px #000);
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
     font-family: ArcadeClassic;
@@ -24,8 +24,9 @@ footer {
 }
 
 span.part-title {
-    margin: 15px 15px;
+    margin: 5px 15px;
 }
+
 
 /* partner area */
 .media-partner-content {
@@ -77,7 +78,6 @@ table td {
     flex-direction: row;
     align-items: center;
     width: 100vw;
-    margin-left: -8px;
     justify-content: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -117,6 +117,7 @@ table td {
     display: flex;
     justify-content: center;
     margin: 0 15px;
+    line-height: normal;
 }
 
 .footer-title-content {
@@ -129,7 +130,6 @@ table td {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 50px;
 }
 
 .more-info-content {
@@ -330,6 +330,13 @@ table td {
 }
 
 /* responsive screen */
+@media screen and (max-width: 320px) {
+}
+.footer-bg-img {
+    margin: -200px 0 -30px 0 !important;
+    height: calc(100vh - 40vh);
+}
+
 @media screen and (max-width: 480px) {
     .daftar-btn {
         margin: 30px !important;

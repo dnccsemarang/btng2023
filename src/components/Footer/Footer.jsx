@@ -10,7 +10,7 @@ const Footer = () => {
 			<footer>
 				<div className="footer-title">
 					<div className="footer-title-content">
-						<span>press daftar to enter btng 2023</span>
+						<h1 className="title">press daftar to enter btng 2023</h1>
 					</div>
 				</div>
 				<div className="footer-content">
