@@ -1,16 +1,9 @@
-<<<<<<< HEAD
-import udinus from '../../assets/FooterAssets/udinus.png';
-import pipeGrass from '../../assets/FooterAssets/grass-pipe-2.png';
-import footerBackground from '../../assets/FooterAssets/footer-bg.png';
-import './Footer.css';
-=======
 // import React from 'react';
 import udinus from '../../assets/FooterAssets/udinus.png';
 // import pipeGrass from '../../assets/FooterAssets/grass-pipe-2.png';
 // import footerBackground from '../../assets/FooterAssets/footer-bg.png';
 import './Footer.css';
-import '../../../src/index.css';
->>>>>>> d85861124afa7de708a0e08e7be715718fc2f5fb
+import '../../../src/index.css';fc2f5fb
 const Footer = () => {
 	return (
 		<>
