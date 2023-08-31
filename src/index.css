@@ -468,15 +468,15 @@ a {
 	-webkit-text-stroke-width: 1px;
 	-webkit-text-stroke-color: black;
 	font-family: ArcadeClassic;
-	font-size: 88px;
+	font-size: 6vw;
 	font-style: normal;
 	font-weight: 400;
 	line-height: normal;
 
 	/* margin-bottom: 40px; */
-	@media only screen and (max-width: 766px) {
-		font-size: 40px;
-	}
+	/* @media only screen and (max-width: 766px) {
+		font-size: 8vw;
+	} */
 }
 
 .item-about {
@@ -831,6 +831,10 @@ img.icon-multimedia {
 }
 
 @media (max-width: 600px) {
+	.title {
+		font-size: 13vw;
+		margin-inline: 10px;
+	}
 	.segment-devisi {
 		width: 70vw;
 	}

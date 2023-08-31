@@ -1,16 +1,18 @@
-import React from "react";
-import udinus from "../../assets/FooterAssets/udinus.png";
-import pipeGrass from "../../assets/FooterAssets/grass-pipe-2.png";
-import footerBackground from "../../assets/FooterAssets/footer-bg.png"
-import './Footer.css'
-import '../../../src/index.css'
+// import React from 'react';
+import udinus from '../../assets/FooterAssets/udinus.png';
+// import pipeGrass from '../../assets/FooterAssets/grass-pipe-2.png';
+// import footerBackground from '../../assets/FooterAssets/footer-bg.png';
+import './Footer.css';
+import '../../../src/index.css';
 const Footer = () => {
 	return (
 		<>
 			<footer>
 				<div className="footer-title">
 					<div className="footer-title-content">
-						<h1 className="title">press daftar to enter btng 2023</h1>
+						<h1 className="title">
+							press daftar<br></br>to enter btng 2023
+						</h1>
 					</div>
 				</div>
 				<div className="footer-content">
@@ -82,7 +84,6 @@ const Footer = () => {
 											</tr>
 										</table>
 									</div>
-
 								</div>
 							</div>
 							<div className="contact-person-part">
@@ -97,9 +98,9 @@ const Footer = () => {
 						</div>
 					</div>
 				</div>
-					<div className="footer-background">
-						<div className="footer-bg-img"></div>
-					</div>
+				<div className="footer-background">
+					<div className="footer-bg-img"></div>
+				</div>
 			</footer>
 		</>
 	);
