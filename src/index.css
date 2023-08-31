@@ -587,67 +587,68 @@ a {
 
 /* General styles */
 .title-container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    align-items: center;
-    justify-content: space-around;
-    text-align: center;
-    padding: 20px;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	align-items: center;
+	justify-content: space-around;
+	text-align: center;
+	padding: 20px;
 }
 
 .benefit-content {
-    grid-template-columns: auto auto auto;
-    margin-top: 30px;
+	grid-template-columns: auto auto auto;
 }
 
 .benefit-item {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 20px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	padding: 20px;
 }
 
 .benefit-item h1 {
-    color: #354a74;
-    font-size: clamp(3rem, 3vw, 6rem);
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+	color: #354a74;
+	font-size: clamp(3rem, 3vw, 6rem);
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
 }
 
 .benefit-item h2 {
-    color: #000;
-    font-family: VT323;
-    font-size: clamp(2.5rem, 3vw, 6rem);
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+	color: #000;
+	font-family: VT323;
+	font-size: clamp(2.5rem, 3vw, 6rem);
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
 }
 
 .benefit-title span {
-    margin-left: 20px;
-    font-family: var(--font-family2);
+	margin-left: 20px;
+	font-family: var(--font-family2);
 }
 
 @media (max-width: 768px) {
-    .benefit-item {
-        grid-template-columns: 1fr;
-        padding: 10px;
-    }
+	.benefit-item {
+		grid-template-columns: 1fr;
+		padding: 10px;
+	}
 
-    .benefit-item h1, .benefit-item h2 {
-        font-size: clamp(1.5rem, 4vw, 4rem);
-    }
+	.benefit-item h1,
+	.benefit-item h2 {
+		font-size: clamp(1.5rem, 4vw, 4rem);
+	}
 
-    .title-item i:nth-child(1) {
-        display: none; /* Nyembunyiin Bintang Mobile Mode */
-    }
-    
-    .benefit-item .nes-icon.is-medium.like { /* Ukuran Jempol Mobile Mode*/
+	.title-item i:nth-child(1) {
+		display: none; /* Nyembunyiin Bintang Mobile Mode */
+	}
+
+	.benefit-item .nes-icon.is-medium.like {
+		/* Ukuran Jempol Mobile Mode*/
 		transform: scale(2);
 		position: relative;
 		margin-bottom: 15px;
 		margin-right: 10px;
-    }
+	}
 }
 
 /* ----------------------END SECTION BENEFIT CSS---------------------- */
