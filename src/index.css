@@ -639,7 +639,14 @@ a {
     }
 
     .title-item i:nth-child(1) {
-        display: none; /* Hide one of the star icons on mobile */
+        display: none; /* Nyembunyiin Bintang Mobile Mode */
+    }
+    
+    .benefit-item .nes-icon.is-medium.like { /* Ukuran Jempol Mobile Mode*/
+		transform: scale(2);
+		position: relative;
+		margin-bottom: 15px;
+		margin-right: 10px;
     }
 }
 
