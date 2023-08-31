@@ -472,6 +472,7 @@ a {
 	font-style: normal;
 	font-weight: 400;
 	line-height: normal;
+
 	/* margin-bottom: 40px; */
 	@media only screen and (max-width: 766px) {
 		font-size: 40px;
@@ -584,15 +585,18 @@ a {
 
 /* ----------------------START SECTION BENEFIT CSS---------------------- */
 
+/* General styles */
 .title-container {
 	display: grid;
 	grid-template-columns: auto auto auto;
 	align-items: center;
 	justify-content: space-around;
+	text-align: center;
+	padding: 20px;
 }
 
 .benefit-content {
-	margin-top: 30px;
+	grid-template-columns: auto auto auto;
 }
 
 .benefit-item {
@@ -608,11 +612,11 @@ a {
 	font-weight: 400;
 	line-height: normal;
 }
+
 .benefit-item h2 {
 	color: #000;
 	font-family: VT323;
 	font-size: clamp(2.5rem, 3vw, 6rem);
-
 	font-style: normal;
 	font-weight: 400;
 	line-height: normal;
@@ -626,6 +630,24 @@ a {
 @media (max-width: 768px) {
 	.benefit-item {
 		grid-template-columns: 1fr;
+		padding: 10px;
+	}
+
+	.benefit-item h1,
+	.benefit-item h2 {
+		font-size: clamp(1.5rem, 4vw, 4rem);
+	}
+
+	.title-item i:nth-child(1) {
+		display: none; /* Nyembunyiin Bintang Mobile Mode */
+	}
+
+	.benefit-item .nes-icon.is-medium.like {
+		/* Ukuran Jempol Mobile Mode*/
+		transform: scale(2);
+		position: relative;
+		margin-bottom: 15px;
+		margin-right: 10px;
 	}
 }
 
