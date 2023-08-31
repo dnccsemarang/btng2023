@@ -584,11 +584,6 @@ a {
 
 /* ----------------------START SECTION BENEFIT CSS---------------------- */
 
-.jadwal {
-	margin-left: 0 !important;
-	margin-right: 0 !important;
-}
-
 .title-container {
 	display: grid;
 	grid-template-columns: auto auto auto;
@@ -878,7 +873,12 @@ img.icon-multimedia {
 }
 /* ----------------------END SECTION DIVISI CSS---------------------- */
 
-/* Css untuk Jadwal */
+/* ----------------------START SECTION JADWAL CSS---------------------- */
+
+.jadwal {
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+}
 
 .pixel-cornerss,
 .pixel-corners--wrapperr {
@@ -1140,4 +1140,4 @@ img.icon-multimedia {
 	position: relative;
 }
 
-/* end jadwal-section */
+/* ----------------------END SECTION DIVISI CSS---------------------- */

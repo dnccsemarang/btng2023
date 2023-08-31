@@ -94,38 +94,6 @@ function App() {
 			<section className="jadwal">
 				<Jadwal />
 			</section>
-			<section className="devisi">
-				<div className="devisi-mobil">
-					<h3>Devisi Mobile</h3>
-					<p>Mempelajari bahasa dart dan framework flutter untuk membuat aplikasi smartphone.</p>
-					<a href="">lihat silabus</a>
-				</div>
-				<div className="devisi-web">
-					<h3>Devisi WEB</h3>
-					<p>Mempelajari HTML, CSS, Bootstrap untuk membuat sebuah web.</p>
-					<a href="">lihat silabus</a>
-				</div>
-				<div className="devisi-jaringan">
-					<h3>Devisi Jarinagan</h3>
-					<p>Mempelajari Cisco, Paket Tracer, dll. untuk menghubungkan beberapa komputer.</p>
-					<a href="">lihat silabus</a>
-				</div>
-				<div className="devisi-dataanalis">
-					<h3>Devisi Data Analist</h3>
-					<p>Mempelajari analisis dan riset data dengan menggunakan tools tertentu.</p>
-					<a href="">lihat silabus</a>
-				</div>
-				<div className="devisi-game">
-					<h3>Devisi Game</h3>
-					<p>Mempelajari pengembangan dan pengelolaan game.</p>
-					<a href="">lihat silabus</a>
-				</div>
-				<div className="devisi-multimedia">
-					<h3>Devisi Multimedia</h3>
-					<p>Mempelajari software desain seperti Adobe Photoshop, Illustrator, dll.</p>
-					<a href="">lihat silabus</a>
-				</div>
-			</section>
 			<Divisi />
 			<Footer />
 		</div>
