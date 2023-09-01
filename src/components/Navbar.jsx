@@ -58,7 +58,7 @@ const NavToggle = styled.button`
 	color: white;
 	cursor: pointer;
 
-	@media (min-width: 650px) {
+	@media (min-width: 769px) {
 		display: none;
 	}
 `;
@@ -80,7 +80,7 @@ const NavList = styled.ul`
 	gap: 20px;
 	position: relative;
 
-	@media only screen and (max-width: 650px) {
+	@media only screen and (max-width: 768px) {
 		display: flex;
 		flex-direction: column;
 		justify-content: flex-start;
@@ -106,12 +106,12 @@ const NavLink = styled.a`
 		text-decoration: none !important;
 	}
 
-	font-size: 1.3rem;
+	font-size: 3vw;
 	display: block;
-	@media only screen and (min-width: 1024px) {
-		font-size: 2rem;
+	@media only screen and (max-width: 1024px) {
+		font-size: 2.8vw;
 	}
-	@media only screen and (min-width: 650px) {
+	@media only screen and (min-width: 769px) {
 		text-shadow: 0px 1px 0px #000;
 		filter: drop-shadow(1px 2px #000);
 		-webkit-text-stroke-width: 1px;
