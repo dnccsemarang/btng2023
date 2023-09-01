@@ -1,7 +1,5 @@
-// import React from 'react';
+import React from 'react';
 import udinus from '../../assets/FooterAssets/udinus.png';
-// import pipeGrass from '../../assets/FooterAssets/grass-pipe-2.png';
-// import footerBackground from '../../assets/FooterAssets/footer-bg.png';
 import './Footer.css';
 import '../../../src/index.css';
 const Footer = () => {
