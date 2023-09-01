@@ -1,16 +1,16 @@
-import mobile from '../assets/mobile.svg';
-import web from '../assets/web.svg';
-import jaringan from '../assets/jaringan.svg';
-import data from '../assets/data.svg';
-import game from '../assets/game.svg';
-import multimedia from '../assets/multimedia.svg';
+import mobile from '../../../assets/mobile.svg';
+import web from '../../../assets/web.svg';
+import jaringan from '../../../assets/jaringan.svg';
+import data from '../../../assets/data.svg';
+import game from '../../../assets/game.svg';
+import multimedia from '../../../assets/multimedia.svg';
 
-import iconMobile from '../assets/icon-divisi/icon-mobile.svg';
-import iconWeb from '../assets/icon-divisi/icon-web.svg';
-import iconJaringan from '../assets/icon-divisi/icon-jaringan.svg';
-import iconData from '../assets/icon-divisi/icon-data.svg';
-import iconGame from '../assets/icon-divisi/icon-game.svg';
-import iconMultimedia from '../assets/icon-divisi/icon-multimedia.svg';
+import iconMobile from '../../../assets/icon-divisi/icon-mobile.svg';
+import iconWeb from '../../../assets/icon-divisi/icon-web.svg';
+import iconJaringan from '../../../assets/icon-divisi/icon-jaringan.svg';
+import iconData from '../../../assets/icon-divisi/icon-data.svg';
+import iconGame from '../../../assets/icon-divisi/icon-game.svg';
+import iconMultimedia from '../../../assets/icon-divisi/icon-multimedia.svg';
 
 const Divisi = () => {
 	return (
