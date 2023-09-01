@@ -1,7 +1,5 @@
-// import React from 'react';
+import React from 'react';
 import udinus from '../../assets/FooterAssets/udinus.png';
-// import pipeGrass from '../../assets/FooterAssets/grass-pipe-2.png';
-// import footerBackground from '../../assets/FooterAssets/footer-bg.png';
 import './Footer.css';
 import '../../../src/index.css';
 const Footer = () => {
@@ -10,14 +8,14 @@ const Footer = () => {
 			<footer>
 				<div className="footer-title">
 					<div className="footer-title-content">
-						<h1 className="title">
+						<h1 className="title" data-aos="fade-in">
 							press daftar<br></br>to enter btng 2023
 						</h1>
 					</div>
 				</div>
-				<div className="footer-content">
+				<div className="footer-content" data-aos="fade-in">
 					<div className="register-btn-part">
-						<div className="daftar-btn-container">
+						<div className="daftar-btn-container" data-aos="fade-in">
 							<div className="logo-pixel-corners--wrapper daftar-btn">
 								<div className="logo-pixel">
 									<h1 className="text-button text-daftar">daftar</h1>
@@ -25,7 +23,7 @@ const Footer = () => {
 							</div>
 						</div>
 					</div>
-					<div className="footer-more-info-container">
+					<div className="footer-more-info-container" data-aos="fade-in">
 						<div className="more-info-content">
 							<div className="media-partner-part">
 								<span className="part-title">media partner</span>
@@ -98,7 +96,7 @@ const Footer = () => {
 						</div>
 					</div>
 				</div>
-				<div className="footer-background">
+				<div className="footer-background" data-aos="fade-in">
 					<div className="footer-bg-img"></div>
 				</div>
 			</footer>

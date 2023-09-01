@@ -1,99 +1,28 @@
-// import { useState } from 'react';
+import { useState } from 'react';
 import Navbar from './components/Navbar';
 import Divisi from './components/Divisi';
+import Hero from './components/Body/Hero/Hero';
+import About from './components/Body/About/About';
+import Benefit from './components/Body/Benefit/Benefit';
 import Footer from './components/Footer/Footer';
-import Jadwal from './components/Jadwal';
+import Jadwal from './components/jadwal';
+
+import Aos from 'aos';
+import 'aos/dist/aos.css'
+import { useEffect } from 'react';
 
 function App() {
+	useEffect(() => {
+		Aos.init({ duration: 2000 })
+	}, []);
+
 	return (
 		<div className="container">
 			<Navbar />
-			<section className="hero">
-				<div className="hero-content">
-					<div className="cloud-wrapper-right">
-						<i alt="Cloud & energy" className="cloud-energy-right"></i>
-					</div>
-					<h1 className="hero-title">BTNG 2023</h1>
-					<div className="cloud-wrapper-left">
-						<i alt="Cloud & energy" className="cloud-energy-left"></i>
-					</div>
-					<h3 className="hero-subtitle">Time to level up!</h3>
-					<div className="pixel-corners--wrapper">
-						<div className="pixel-corners">
-							<h1 className="text-button">start</h1>
-						</div>
-					</div>
-					<div className="item-hero-bot">
-						<i alt="Rumput" className="rumput-left"></i>
-						<i alt="Diamond" className="diamond"></i>
-						<i alt="Rumput" className="rumput-right"></i>
-					</div>
-				</div>
-			</section>
-
-			<section className="about">
-				<h1 className="title with-arrows">About BTNG</h1>
-				<div className="nes-balloon balloon">
-					<p>
-						BTNG (Basic Training Next Generation) adalah acara DNCC sebagai gerbang awal bagi mahasiswa yang ingin
-						menjadi anggota di UKM DNCC. Acara ini bertujuan untuk memberikan pelatihan kepada calon anggota baru agar
-						memiliki pengetahuan yang unggul dalam divisi yang dipilih.
-					</p>
-					<div className="bubble-buttom"></div>
-				</div>
-				<div className="item-about">
-					<i alt="Pink Flower" className="flower-left"></i>
-					<i alt="Character About" className="character-center"></i>
-					<i alt="Pink Flower" className="flower-right"></i>
-				</div>
-			</section>
-			<section className="benefit">
-				<div className="title-container">
-					<div className="title-item">
-						<i className="nes-icon is-medium star"></i>
-						<i className="nes-icon is-medium star"></i>
-					</div>
-					<h1 className="title">benefit</h1>
-					<div className="title-item">
-						<i className="nes-icon is-medium star"></i>
-						<i className="nes-icon is-medium star"></i>
-					</div>
-				</div>
-				<div className="benefit-content">
-					<div className="benefit-item">
-						<h1 className="benefit-title">
-							<i className="nes-icon is-medium like"></i>
-							<span>skill</span>
-						</h1>
-						<h2>Mendapatkan softskill dan hardskill</h2>
-					</div>
-					<div className="benefit-item">
-						<h1 className="benefit-title">
-							<i className="nes-icon is-medium like"></i>
-							<span>pengalaman</span>
-						</h1>
-						<h2>Mendapatkan pengalaman belajar bersama</h2>
-					</div>
-					<div className="benefit-item">
-						<h1 className="benefit-title">
-							<i className="nes-icon is-medium like"></i>
-							<span>relasi</span>
-						</h1>
-						<h2>Menambah relasi antar peserta dan mentor</h2>
-					</div>
-					<div className="benefit-item">
-						<h1 className="benefit-title">
-							<i className="nes-icon is-medium like"></i>
-							<span>sertifikat</span>
-						</h1>
-						<h2>Mendapatkan sertifikat hasil pelatihan</h2>
-					</div>
-				</div>
-			</section>
-
-			<section className="jadwal">
-				<Jadwal />
-			</section>
+			<Hero/>
+			<About/>
+			<Benefit/>
+			<Jadwal/>
 			<Divisi />
 			<Footer />
 		</div>
