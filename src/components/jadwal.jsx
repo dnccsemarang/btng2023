@@ -1,6 +1,8 @@
 import { styled } from "styled-components";
 import gambar from "../assets/image25.png";
 import jamur from "../assets/jamur.png";
+import ufo from "../assets/ufo.png";
+import charJadwal from "../assets/char-jadwal.png";
 
 const Jadwal = () => {
   return (
@@ -13,6 +15,8 @@ const Jadwal = () => {
         <TanahImg src={gambar} alt="" />
       </Gambar1>
       <Jadwalwrap>
+        <img className="img-ufo" src={ufo} alt="" />
+        <img className="img-char-jadwal" src={charJadwal} alt="" />
         <div className="pixel-corners--wrapperr">
           <div className="pixel-cornerss">
             <Pixel>
@@ -150,5 +154,9 @@ const Text = styled.div`
   }
 `;
 
-const Jadwalwrap = styled.div``;
+const Jadwalwrap = styled.div`
+  position: relative;
+  margin: auto;
+  max-width: 1200px;
+`;
 export default Jadwal;

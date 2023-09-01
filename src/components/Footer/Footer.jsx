@@ -3,7 +3,7 @@ import udinus from '../../assets/FooterAssets/udinus.png';
 // import pipeGrass from '../../assets/FooterAssets/grass-pipe-2.png';
 // import footerBackground from '../../assets/FooterAssets/footer-bg.png';
 import './Footer.css';
-import '../../../src/index.css';fc2f5fb
+import '../../../src/index.css';
 const Footer = () => {
 	return (
 		<>
@@ -98,13 +98,8 @@ const Footer = () => {
 						</div>
 					</div>
 				</div>
-<<<<<<< HEAD
-				<div className="footer-background-container">
-					<img src={footerBackground} alt="" className="footer-bg-img" />
-=======
 				<div className="footer-background">
 					<div className="footer-bg-img"></div>
->>>>>>> d85861124afa7de708a0e08e7be715718fc2f5fb
 				</div>
 			</footer>
 		</>

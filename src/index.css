@@ -1115,6 +1115,7 @@ img.icon-multimedia {
 	display: block;
 	pointer-events: none;
 }
+
 .pixel-cornerss::after {
 	margin: -4px;
 }
@@ -1166,4 +1167,17 @@ img.icon-multimedia {
 	position: relative;
 }
 
-/* ----------------------END SECTION DIVISI CSS---------------------- */
+.img-ufo {
+	position: absolute;
+	z-index: 2;
+	top: -50px;
+	left: -30px;
+}
+
+.img-char-jadwal {
+	position: absolute;
+	z-index: 2;
+	bottom: -40px;
+	right: 40px;
+}
+/* ----------------------END SECTION JADWAL CSS---------------------- */
