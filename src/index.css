@@ -912,11 +912,6 @@ img.icon-multimedia {
 
 .pixel-cornerss,
 .pixel-corners--wrapperr {
-	/* padding-top: 1px; */
-	/* padding: 30px; */
-	/* margin: 4vw; */
-	/* @media screen and (min-width: 320px) { */
-	/* margin: 12px; */
 	background-color: #312e86;
 	clip-path: polygon(
 		0px calc(100% - 20px),
@@ -956,133 +951,11 @@ img.icon-multimedia {
 		4px 20px,
 		0px 20px
 	);
-	/* position: relative;
-	} */
 }
 .pixel-cornerss {
 	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 	border: 4px solid transparent;
 }
-
-/* .pixel-corners--wrapperr .pixel-cornerss {
-	display: block;
-	clip-path: polygon(
-		4px 20px,
-		8px 20px,
-		8px 12px,
-		12px 12px,
-		12px 8px,
-		20px 8px,
-		20px 4px,
-		calc(100% - 20px) 4px,
-		calc(100% - 20px) 8px,
-		calc(100% - 12px) 8px,
-		calc(100% - 12px) 12px,
-		calc(100% - 8px) 12px,
-		calc(100% - 8px) 20px,
-		calc(100% - 4px) 20px,
-		calc(100% - 4px) calc(100% - 20px),
-		calc(100% - 8px) calc(100% - 20px),
-		calc(100% - 8px) calc(100% - 12px),
-		calc(100% - 12px) calc(100% - 12px),
-		calc(100% - 12px) calc(100% - 8px),
-		calc(100% - 20px) calc(100% - 8px),
-		calc(100% - 20px) calc(100% - 4px),
-		20px calc(100% - 4px),
-		20px calc(100% - 8px),
-		12px calc(100% - 8px),
-		12px calc(100% - 12px),
-		8px calc(100% - 12px),
-		8px calc(100% - 20px),
-		4px calc(100% - 20px)
-	);
-} */
-/* .pixel-cornerss::after,
-.pixel-corners--wrapperr::after {
-	content: '';
-	position: absolute;
-	clip-path: polygon(
-		0px calc(100% - 20px),
-		4px calc(100% - 20px),
-		4px calc(100% - 12px),
-		8px calc(100% - 12px),
-		8px calc(100% - 8px),
-		12px calc(100% - 8px),
-		12px calc(100% - 4px),
-		20px calc(100% - 4px),
-		20px 100%,
-		calc(100% - 20px) 100%,
-		calc(100% - 20px) calc(100% - 4px),
-		calc(100% - 12px) calc(100% - 4px),
-		calc(100% - 12px) calc(100% - 8px),
-		calc(100% - 8px) calc(100% - 8px),
-		calc(100% - 8px) calc(100% - 12px),
-		calc(100% - 4px) calc(100% - 12px),
-		calc(100% - 4px) calc(100% - 20px),
-		100% calc(100% - 20px),
-		100% 20px,
-		calc(100% - 4px) 20px,
-		calc(100% - 4px) 12px,
-		calc(100% - 8px) 12px,
-		calc(100% - 8px) 8px,
-		calc(100% - 12px) 8px,
-		calc(100% - 12px) 4px,
-		calc(100% - 20px) 4px,
-		calc(100% - 20px) 0px,
-		20px 0px,
-		20px 4px,
-		12px 4px,
-		12px 8px,
-		8px 8px,
-		8px 12px,
-		4px 12px,
-		4px 20px,
-		0px 20px,
-		0px 50%,
-		4px 50%,
-		4px 20px,
-		8px 20px,
-		8px 12px,
-		12px 12px,
-		12px 8px,
-		20px 8px,
-		20px 4px,
-		calc(100% - 20px) 4px,
-		calc(100% - 20px) 8px,
-		calc(100% - 12px) 8px,
-		calc(100% - 12px) 12px,
-		calc(100% - 8px) 12px,
-		calc(100% - 8px) 20px,
-		calc(100% - 4px) 20px,
-		calc(100% - 4px) calc(100% - 20px),
-		calc(100% - 8px) calc(100% - 20px),
-		calc(100% - 8px) calc(100% - 12px),
-		calc(100% - 12px) calc(100% - 12px),
-		calc(100% - 12px) calc(100% - 8px),
-		calc(100% - 20px) calc(100% - 8px),
-		calc(100% - 20px) calc(100% - 4px),
-		20px calc(100% - 4px),
-		20px calc(100% - 8px),
-		12px calc(100% - 8px),
-		12px calc(100% - 12px),
-		8px calc(100% - 12px),
-		8px calc(100% - 20px),
-		4px calc(100% - 20px),
-		4px 50%,
-		0px 50%
-	);
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	background: #000000;
-	display: block;
-	pointer-events: none;
-}
-
-.pixel-cornerss::after {
-	margin: -4px;
-} */
 
 .pixelcorner {
 	background-color: #ffffff;
@@ -1124,7 +997,6 @@ img.icon-multimedia {
 		4px 20px,
 		0px 20px
 	);
-	/* position: relative; */
 }
 
 .img-ufo {
@@ -1135,11 +1007,8 @@ img.icon-multimedia {
 	width: 10vw;
 
 	@media (max-width: 768px) {
-		/* width: 10vw; */
 		top: -10px;
 		width: 15vw;
-
-		/* left: -0.5px; */
 	}
 }
 
@@ -1151,21 +1020,9 @@ img.icon-multimedia {
 	width: 5vw;
 
 	@media (max-width: 768px) {
-		/* width: 10vw; */
 		bottom: -10px;
 		right: 10px;
 		width: 8vw;
-
-		/* left: -0.5px; */
 	}
-}
-
-.pixel-cornerss {
-	/* background-color: red; */
-	/* margin-top: 50px; */
-}
-
-.pixel-corners--wrapperr {
-	/* background-color: red; */
 }
 /* ----------------------END SECTION JADWAL CSS---------------------- */
