@@ -4,8 +4,8 @@ import Divisi from './components/Divisi';
 import Hero from './components/Body/Hero/Hero';
 import About from './components/Body/About/About';
 import Benefit from './components/Body/Benefit/Benefit';
-import Jadwal from './components/Body/Jadwal/Jadwal';
 import Footer from './components/Footer/Footer';
+import Jadwal from './components/jadwal';
 
 import Aos from 'aos';
 import 'aos/dist/aos.css'
