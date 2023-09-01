@@ -2,8 +2,15 @@
 import Navbar from './components/Navbar';
 import Divisi from './components/Divisi';
 import Footer from './components/Footer/Footer';
+import { useTypewriter } from 'react-simple-typewriter';
 
 function App() {
+
+	const [typeEffect] = useTypewriter({
+		words: ["BTNG (Basic Training Next Generation) adalah acara DNCC sebagai gerbang awal bagi mahasiswa yang ingin menjadi anggota di UKM DNCC. Acara ini bertujuan untuk memberikan pelatihan kepada calon anggota baru agar memiliki pengetahuan yang unggul dalam divisi yang dipilih."],
+		loop: 1,
+		typeSpeed: 50,
+	})
 	return (
 		<div className="container">
 			<Navbar />
@@ -33,10 +40,8 @@ function App() {
 			<section className="about">
 				<h1 className="title with-arrows">About BTNG</h1>
 				<div className="nes-balloon balloon">
-					<p>
-						BTNG (Basic Training Next Generation) adalah acara DNCC sebagai gerbang awal bagi mahasiswa yang ingin
-						menjadi anggota di UKM DNCC. Acara ini bertujuan untuk memberikan pelatihan kepada calon anggota baru agar
-						memiliki pengetahuan yang unggul dalam divisi yang dipilih.
+					<p style={{textAlign:'justify'}}>
+						{typeEffect}
 					</p>
 					<div className="bubble-buttom"></div>
 				</div>

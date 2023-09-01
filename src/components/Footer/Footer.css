@@ -120,11 +120,6 @@ table td {
     line-height: normal;
 }
 
-.footer-title-content {
-    text-align: center;
-    width: 400px;
-}
-
 .footer-more-info-container {
     display: flex;
     flex-direction: column;
