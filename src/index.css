@@ -472,11 +472,6 @@ a {
 	font-style: normal;
 	font-weight: 400;
 	line-height: normal;
-
-	/* margin-bottom: 40px; */
-	/* @media only screen and (max-width: 766px) {
-		font-size: 8vw;
-	} */
 }
 
 .item-about {
@@ -554,7 +549,7 @@ a {
 
 @media (max-width: 768px) {
 	.title.with-arrows {
-		background-size: 2rem, 2rem;
+		background-size: 1rem, 1rem;
 		background-position:
 			left center,
 			right center; /* Sesuaikan posisi sesuai kebutuhan */

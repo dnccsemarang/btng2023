@@ -10,7 +10,7 @@ function About() {
     })
     return (
         <section className="about">
-            <h1 className="title with-arrows" data-aos="zoom-in">About BTNG</h1>
+            <h1 className="title with-arrows" data-aos="zoom-in"  data-aos-offset="250" data-aos-duration="320">About BTNG</h1>
             <div className="nes-balloon balloon" data-aos="fade-in">
                 <p style={{ textAlign: 'justify' }}>
                     {typeEffect}
