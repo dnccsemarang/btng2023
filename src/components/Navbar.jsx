@@ -12,9 +12,9 @@ const Navbar = () => {
 	return (
 		<NavbarContainer>
 			<LogoWrapper>
-				<NavLink href="">
-					<Image src={logo} alt="" />
-				</NavLink>
+				{/* <NavLink href=""> */}
+				<Image src={logo} alt="" />
+				{/* </NavLink> */}
 			</LogoWrapper>
 			<NavToggle onClick={showNavbar}>{isNavOpen ? <FaTimes /> : <FaBars />}</NavToggle>
 			<NavList isOpen={isNavOpen}>
