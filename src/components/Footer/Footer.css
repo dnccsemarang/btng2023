@@ -73,16 +73,28 @@ table td {
     padding-inline: 10px;
 }
 
+.pipe-grass-left,
+.pipe-grass-right {
+    width: 500px;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.pipe-grass-left {
+    background-image: url("../../assets/FooterAssets/grass-pipe-left.png");
+}
+.pipe-grass-right {
+    background-image: url("../../assets/FooterAssets/grass-pipe-right.png");
+}
+
 .daftar-btn-container {
     display: flex;
     flex-direction: row;
     align-items: center;
     width: 100vw;
-    justify-content: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-image: url("../../assets/FooterAssets/daftar-area-bg.png");
+    justify-content: space-between;
 }
 
 .daftar-btn {
@@ -377,10 +389,6 @@ table td {
 }
 
 @media screen and (min-width: 1240px) {
-    .daftar-btn-container {
-        background-size: cover;
-    }
-
     .footer-bg-img {
         margin: -100px 0 -65px 0 !important;
     }

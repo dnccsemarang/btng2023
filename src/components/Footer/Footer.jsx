@@ -16,11 +16,13 @@ const Footer = () => {
 				<div className="footer-content" data-aos="fade-in">
 					<div className="register-btn-part">
 						<div className="daftar-btn-container" data-aos="fade-in">
+							<div className="pipe-grass-left"></div>
 							<div className="logo-pixel-corners--wrapper daftar-btn">
 								<div className="logo-pixel">
 									<h1 className="text-button text-daftar">daftar</h1>
 								</div>
 							</div>
+							<div className="pipe-grass-right"></div>
 						</div>
 					</div>
 					<div className="footer-more-info-container" data-aos="fade-in">
