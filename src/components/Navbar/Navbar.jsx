@@ -9,6 +9,11 @@ const Navbar = () => {
 	const showNavbar = () => {
 		setIsNavOpen(!isNavOpen);
 	};
+
+	const closeNavbar = () => {
+		setIsNavOpen(false);
+	};
+
 	return (
 		<NavbarContainer>
 			<LogoWrapper>
@@ -19,19 +24,19 @@ const Navbar = () => {
 			<NavToggle onClick={showNavbar}>{isNavOpen ? <FaTimes /> : <FaBars />}</NavToggle>
 			<NavList isOpen={isNavOpen}>
 				<li>
-					<NavLink href="#about">ABOUT</NavLink>
+					<NavLink href="#about" onClick={closeNavbar}>ABOUT</NavLink>
 				</li>
 				<li>
-					<NavLink href="#benefit">BENEFIT</NavLink>
+					<NavLink href="#benefit" onClick={closeNavbar}>BENEFIT</NavLink>
 				</li>
 				<li>
-					<NavLink href="#jadwal">JADWAL</NavLink>
+					<NavLink href="#jadwal" onClick={closeNavbar}>JADWAL</NavLink>
 				</li>
 				<li>
-					<NavLink href="#divisi">DIVISI</NavLink>
+					<NavLink href="#divisi" onClick={closeNavbar}>DIVISI</NavLink>
 				</li>
 				<li>
-					<NavLink href="#daftar">DAFTAR</NavLink>
+					<NavLink href="#daftar" onClick={closeNavbar}>DAFTAR</NavLink>
 				</li>
 			</NavList>
 		</NavbarContainer>
