@@ -5,29 +5,35 @@ import '../../../src/index.css';
 const Footer = () => {
 	return (
 		<>
-			<footer>
+			<footer id="daftar">
 				<div className="footer-title">
 					<div className="footer-title-content">
-						<h1 className="title" data-aos="fade-in">
-							press daftar<br></br>to enter btng 2023
+						<h1 className="title" data-aos="zoom-in">
+							press register<br></br>to enter btng 2023
 						</h1>
 					</div>
 				</div>
-				<div className="footer-content" data-aos="fade-in">
+				<div className="footer-content">
 					<div className="register-btn-part">
-						<div className="daftar-btn-container" data-aos="fade-in">
-							<div className="pipe-grass-left"></div>
-							<div className="logo-pixel-corners--wrapper daftar-btn">
-								<div className="logo-pixel">
-									<h1 className="text-button text-daftar">daftar</h1>
-								</div>
+						<div className="daftar-btn-container">
+							<div className="pipe-grass-left" data-aos="fade-right"></div>
+							<div className="logo-pixel-corners--wrapper daftar-btn" data-aos="zoom-in">
+								<a
+									href="https://docs.google.com/forms/d/e/1FAIpQLSe-WnWM4TDdTih_H7ff3ZK7udJKuKv_7QJp6GXjhB9PR02P6A/viewform"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									<div className="logo-pixel">
+										<h1 className="text-button text-daftar">register</h1>
+									</div>
+								</a>
 							</div>
-							<div className="pipe-grass-right"></div>
+							<div className="pipe-grass-right" data-aos="fade-left"></div>
 						</div>
 					</div>
-					<div className="footer-more-info-container" data-aos="fade-in">
+					<div className="footer-more-info-container">
 						<div className="more-info-content">
-							<div className="media-partner-part">
+							<div className="media-partner-part" data-aos="fade-down">
 								<span className="part-title">media partner</span>
 								<div className="media-partner-content">
 									<div className="partner-logo-item">
@@ -53,7 +59,7 @@ const Footer = () => {
 									</div>
 								</div>
 							</div>
-							<div className="social-media-part">
+							<div className="social-media-part" data-aos="fade-down">
 								<span className="part-title">social media</span>
 								<div className="social-media-content">
 									<div className="social-media-container">
@@ -86,7 +92,7 @@ const Footer = () => {
 									</div>
 								</div>
 							</div>
-							<div className="contact-person-part">
+							<div className="contact-person-part" data-aos="fade-down">
 								<span className="part-title">contact person</span>
 								<div className="contact-person-content">
 									<ul>
@@ -98,7 +104,7 @@ const Footer = () => {
 						</div>
 					</div>
 				</div>
-				<div className="footer-background" data-aos="fade-in">
+				<div className="footer-background">
 					<div className="footer-bg-img"></div>
 				</div>
 			</footer>

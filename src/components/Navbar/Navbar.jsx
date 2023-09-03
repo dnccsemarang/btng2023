@@ -19,19 +19,19 @@ const Navbar = () => {
 			<NavToggle onClick={showNavbar}>{isNavOpen ? <FaTimes /> : <FaBars />}</NavToggle>
 			<NavList isOpen={isNavOpen}>
 				<li>
-					<NavLink href="">ABOUT</NavLink>
+					<NavLink href="#about">ABOUT</NavLink>
 				</li>
 				<li>
-					<NavLink href="">BENEFIT</NavLink>
+					<NavLink href="#benefit">BENEFIT</NavLink>
 				</li>
 				<li>
-					<NavLink href="">JADWAL</NavLink>
+					<NavLink href="#jadwal">JADWAL</NavLink>
 				</li>
 				<li>
-					<NavLink href="">DIVISI</NavLink>
+					<NavLink href="#divisi">DIVISI</NavLink>
 				</li>
 				<li>
-					<NavLink href="">DAFTAR</NavLink>
+					<NavLink href="#daftar">DAFTAR</NavLink>
 				</li>
 			</NavList>
 		</NavbarContainer>

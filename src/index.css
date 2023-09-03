@@ -655,7 +655,7 @@ a {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	margin-top: 5vw;
+	margin-top: 10vw;
 }
 
 .atas {
@@ -827,7 +827,7 @@ img.icon-multimedia {
 
 @media (max-width: 600px) {
 	.title {
-		font-size: 13vw;
+		font-size: 10vw;
 		margin-inline: 10px;
 	}
 	.segment-devisi {
