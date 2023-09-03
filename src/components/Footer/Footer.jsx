@@ -1,10 +1,34 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import udinus from '../../assets/FooterAssets/udinus.png';
 import doscomLogo from '../../assets/FooterAssets/media partner/doscom.png'
 import gdscLogo from '../../assets/FooterAssets/media partner/gdsc.png'
+import ilkomLogo from '../../assets/FooterAssets/media partner/ilkom.png'
+import drcLogo from '../../assets/FooterAssets/media partner/drc.png'
 import './Footer.css';
 import '../../../src/index.css';
 const Footer = () => {
+	const [scrollY, setScrollY] = useState(0);
+	const scrollThreshold = 1000;
+
+	useEffect(() => {
+		const handleScroll = () => {
+			setScrollY(window.scrollY);
+		};
+
+		window.addEventListener('scroll', handleScroll);
+
+		return () => {
+			window.removeEventListener('scroll', handleScroll);
+		};
+	}, []);
+
+	const handleScrollToTop = () => {
+		window.scrollTo({
+			top: 0,
+			behavior: 'smooth',
+		});
+	};
+
 	return (
 		<>
 			<footer id="daftar">
@@ -59,6 +83,20 @@ const Footer = () => {
 											</div>
 										</div>
 									</div>
+									<div className="partner-logo-item">
+										<div className="logo-pixel-corners--wrapper">
+											<div className="logo-pixel-corners">
+												<img src={ilkomLogo} alt="" className="partner-logo" />
+											</div>
+										</div>
+									</div>
+									<div className="partner-logo-item">
+										<div className="logo-pixel-corners--wrapper">
+											<div className="logo-pixel-corners">
+												<img src={drcLogo} alt="" className="partner-logo" />
+											</div>
+										</div>
+									</div>
 								</div>
 							</div>
 							<div className="social-media-part" data-aos="fade-down">
@@ -104,6 +142,11 @@ const Footer = () => {
 								</div>
 							</div>
 						</div>
+					</div>
+				</div>
+				<div className={`back-to-top-container ${scrollY > scrollThreshold ? 'visible' : ''} logo-pixel-corners--wrapper`}>
+					<div className="back-to-top" onClick={handleScrollToTop}>
+						<span>&uarr;</span>
 					</div>
 				</div>
 				<div className="footer-background">

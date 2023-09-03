@@ -6,12 +6,10 @@ footer {
 
 /* style for daftar button */
 .daftar-btn {
-	/* margin: 20px 15px; */
 	padding: 20px 5px;
 	color: #3f5683;
 	font-family: ArcadeClassic;
 }
-
 
 .daftar-btn h1 {
 	font-size: 3vw;
@@ -113,22 +111,10 @@ table td {
 	justify-content: space-between;
 }
 
-.daftar-btn {
-	/* margin: 50px !important; */
-}
 
 .text-daftar {
-	/* margin: -5px !important; */
 	font-size: 1vw;
 }
-
-/* background for footer content area */
-/* .footer-content {
-    width: 100vw;
-    background-image: url("../../assets/FooterAssets/footer-content-bg.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-} */
 
 /* Footer Background */
 .footer-bg-img {
