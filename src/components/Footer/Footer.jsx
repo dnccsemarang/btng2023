@@ -1,5 +1,7 @@
 import React from 'react';
 import udinus from '../../assets/FooterAssets/udinus.png';
+import doscomLogo from '../../assets/FooterAssets/media partner/doscom.png'
+import gdscLogo from '../../assets/FooterAssets/media partner/gdsc.png'
 import './Footer.css';
 import '../../../src/index.css';
 const Footer = () => {
@@ -39,14 +41,14 @@ const Footer = () => {
 									<div className="partner-logo-item">
 										<div className="logo-pixel-corners--wrapper">
 											<div className="logo-pixel-corners">
-												<img src={udinus} alt="" className="partner-logo" />
+												<img src={gdscLogo} alt="" className="partner-logo" />
 											</div>
 										</div>
 									</div>
 									<div className="partner-logo-item">
 										<div className="logo-pixel-corners--wrapper">
 											<div className="logo-pixel-corners">
-												<img src={udinus} alt="" className="partner-logo" />
+												<img src={doscomLogo} alt="" className="partner-logo" />
 											</div>
 										</div>
 									</div>
