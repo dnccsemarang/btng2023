@@ -9,9 +9,18 @@
 	margin: 0;
 	padding: 0;
 	font-family: var(--font-family);
+	scroll-behavior: smooth !important;
 }
-
+::-webkit-scrollbar {
+	background-color: rgb(47, 46, 46);
+	width: 10px;
+}
+::-webkit-scrollbar-thumb {
+	background-color: #0056b3;
+	border-radius: 10px;
+}
 body {
+	scroll-behavior: smooth !important;
 	overflow-x: hidden;
 	height: 100%;
 	margin: 0;
@@ -472,11 +481,6 @@ a {
 	font-style: normal;
 	font-weight: 400;
 	line-height: normal;
-
-	/* margin-bottom: 40px; */
-	/* @media only screen and (max-width: 766px) {
-		font-size: 8vw;
-	} */
 }
 
 .item-about {
@@ -554,7 +558,7 @@ a {
 
 @media (max-width: 768px) {
 	.title.with-arrows {
-		background-size: 2rem, 2rem;
+		background-size: 3rem, 3rem;
 		background-position:
 			left center,
 			right center; /* Sesuaikan posisi sesuai kebutuhan */
@@ -660,7 +664,7 @@ a {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	margin-top: 5vw;
+	margin-top: 10vw;
 }
 
 .atas {
@@ -832,7 +836,7 @@ img.icon-multimedia {
 
 @media (max-width: 600px) {
 	.title {
-		font-size: 13vw;
+		font-size: 10vw;
 		margin-inline: 10px;
 	}
 	.segment-devisi {
@@ -1026,3 +1030,42 @@ img.icon-multimedia {
 	}
 }
 /* ----------------------END SECTION JADWAL CSS---------------------- */
+
+/* ----------------------BACK TO TOP BUTTON-------------------------- */
+.back-to-top-container {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	opacity: 0;
+	visibility: hidden;
+	transition:
+		opacity 0.3s,
+		visibility 0.3s;
+}
+
+.back-to-top-container.visible {
+	opacity: 1;
+	visibility: visible;
+}
+
+.back-to-top {
+	background-color: #004ea2;
+	color: #fff;
+	/* padding: 20px 25px; */
+	padding-inline: 25px;
+	padding-top: 0;
+	padding-bottom: 0;
+	border: none;
+	cursor: pointer;
+	font-size: 18px;
+	transition: background-color 0.3s;
+}
+
+.back-to-top span {
+	font-size: 3rem;
+}
+
+.back-to-top:hover {
+	background-color: #0056b3;
+	color: #fff;
+}

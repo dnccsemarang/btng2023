@@ -9,6 +9,11 @@ const Navbar = () => {
 	const showNavbar = () => {
 		setIsNavOpen(!isNavOpen);
 	};
+
+	const closeNavbar = () => {
+		setIsNavOpen(false);
+	};
+
 	return (
 		<NavbarContainer>
 			<LogoWrapper>
@@ -19,19 +24,29 @@ const Navbar = () => {
 			<NavToggle onClick={showNavbar}>{isNavOpen ? <FaTimes /> : <FaBars />}</NavToggle>
 			<NavList isOpen={isNavOpen}>
 				<li>
-					<NavLink href="">ABOUT</NavLink>
+					<NavLink href="#about" onClick={closeNavbar}>
+						ABOUT
+					</NavLink>
 				</li>
 				<li>
-					<NavLink href="">BENEFIT</NavLink>
+					<NavLink href="#benefit" onClick={closeNavbar}>
+						BENEFIT
+					</NavLink>
 				</li>
 				<li>
-					<NavLink href="">JADWAL</NavLink>
+					<NavLink href="#jadwal" onClick={closeNavbar}>
+						JADWAL
+					</NavLink>
 				</li>
 				<li>
-					<NavLink href="">DIVISI</NavLink>
+					<NavLink href="#divisi" onClick={closeNavbar}>
+						DIVISI
+					</NavLink>
 				</li>
 				<li>
-					<NavLink href="">DAFTAR</NavLink>
+					<NavLink href="#daftar" onClick={closeNavbar}>
+						DAFTAR
+					</NavLink>
 				</li>
 			</NavList>
 		</NavbarContainer>
@@ -68,9 +83,6 @@ const Image = styled.img`
 	width: 10rem;
 	margin-right: 22px;
 
-	/* @media only screen and (min-width: 600px) {
-		width: 10rem;
-	} */
 	@media only screen and (min-width: 1024px) {
 		width: 15rem;
 	}
@@ -87,7 +99,7 @@ const NavList = styled.ul`
 		align-items: flex-start;
 		height: 100%;
 		position: fixed;
-		z-index: 1;
+		z-index: 2;
 		top: 0;
 		left: 0;
 		background-color: #009dff;
@@ -110,6 +122,9 @@ const NavLink = styled.a`
 	display: block;
 	@media only screen and (max-width: 1024px) {
 		font-size: 2.8vw;
+	}
+	@media only screen and (max-width: 769px) {
+		font-size: 4vw;
 	}
 	@media only screen and (min-width: 769px) {
 		text-shadow: 0px 1px 0px #000;

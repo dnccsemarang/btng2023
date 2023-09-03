@@ -7,21 +7,21 @@ import charJadwal from '../../../assets/char-jadwal.png';
 const Jadwal = () => {
 	return (
 		<>
-			<Gambar1>
+			<Gambar1 data-aos="fade-right">
 				<JadwalGambar>
 					<JamurIMG src={jamur} alt="" />
-					<Title>JADWAL</Title>
+					<Title id="jadwal">JADWAL</Title>
 				</JadwalGambar>
 				<TanahImg src={gambar} alt="" />
 			</Gambar1>
-			<Jadwalwrap>
+			<Jadwalwrap data-aos="zoom-in">
 				<img className="img-ufo" src={ufo} alt="" />
 				<img className="img-char-jadwal" src={charJadwal} alt="" />
 				<div className="pixel-corners--wrapperr">
 					<div className="pixel-cornerss">
 						<Pixel>
 							<li className="pixelcorner">
-								<Text>Pendaftaran : Jumat, 8 September - Jumat, 22 September</Text>
+								<Text>Pendaftaran : Selasa, 5 September - Jumat, 22 September</Text>
 							</li>
 							<li className="pixelcorner">
 								<Text>Opening : Sabtu, 23 September 2023</Text>
@@ -36,7 +36,7 @@ const Jadwal = () => {
 					</div>
 				</div>
 			</Jadwalwrap>
-			<Gambar2>
+			<Gambar2 data-aos="fade-left">
 				<div>
 					<Title>BTNG 2023</Title>
 					<JamurImg src={jamur} alt="" />
