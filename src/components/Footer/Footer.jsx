@@ -107,7 +107,7 @@ const Footer = () => {
 											<tr>
 												<td>Web</td>
 												<td>
-													<a href="https://dnccudinus.org/">
+													<a target="_blank" rel="noopener noreferrer" href="https://dnccudinus.org/">
 														dnccudinus.org
 													</a>
 												</td>
@@ -115,7 +115,7 @@ const Footer = () => {
 											<tr>
 												<td>Instagram</td>
 												<td>
-													<a href="https://www.instagram.com/dnccsemarang/">
+													<a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/dnccsemarang/">
 														dnccsemarang
 													</a>
 												</td>
@@ -123,7 +123,7 @@ const Footer = () => {
 											<tr>
 												<td>Tiktok</td>
 												<td>
-													<a href="https://www.tiktok.com/@dnccsemarang">
+													<a target="_blank" rel="noopener noreferrer" href="https://www.tiktok.com/@dnccsemarang">
 														dnccsemarang
 													</a>
 												</td>
@@ -131,7 +131,7 @@ const Footer = () => {
 											<tr>
 												<td>Youtube</td>
 												<td>
-													<a href="https://www.youtube.com/@dnccsemarang">
+													<a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/@dnccsemarang">
 														DNCC
 													</a>
 												</td>
@@ -139,7 +139,7 @@ const Footer = () => {
 											<tr>
 												<td>Discord</td>
 												<td>
-													<a href="http://bit.ly/discorddncc">
+													<a target="_blank" rel="noopener noreferrer" href="http://bit.ly/discorddncc">
 														discorddncc
 													</a>
 												</td>
@@ -147,7 +147,7 @@ const Footer = () => {
 											<tr>
 												<td>Telegram</td>
 												<td>
-													<a href="http://t.me/dncc_official">
+													<a target="_blank" rel="noopener noreferrer" href="http://t.me/dncc_official">
 														dncc_official
 													</a>
 												</td>

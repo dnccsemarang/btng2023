@@ -39,13 +39,6 @@ span.part-title {
 	object-fit: contain;
 }
 
-.media-partner-content {
-	display: grid !important;
-	grid-template-columns: repeat(3, 1fr);
-	justify-content: center;
-	align-items: center;
-}
-
 .partner-logo-item {
 	margin: 5px;
 }
