@@ -40,7 +40,8 @@ span.part-title {
 }
 
 .media-partner-content {
-	display: flex;
+	display: grid !important;
+	grid-template-columns: repeat(3, 1fr);
 	justify-content: center;
 	align-items: center;
 }
@@ -51,13 +52,10 @@ span.part-title {
 
 .media-partner-content {
 	display: flex;
-	gap: 10px;
 	flex-wrap: wrap !important;
 	justify-content: center;
 	text-align: center;
 	align-items: center;
-	margin: 0 10px 0 10px;
-	padding: 15px;
 }
 
 
@@ -77,13 +75,11 @@ span.part-title {
 	justify-content: center;
 }
 
-table tr,
+table td,
 ul li {
-	font-size: 2vw;
-}
-
-table td {
 	padding-inline: 10px;
+	font-size: 18px;
+	
 }
 
 .pipe-grass-left,
@@ -377,9 +373,9 @@ table td {
 		-webkit-text-stroke-color: black;
 	}
 
-	table tr,
+	table td,
 	ul li {
-		font-size: 5vw;
+		font-size: 20px;
 	}
 }
 
@@ -395,6 +391,11 @@ table td {
 	.social-media-part,
 	.contact-person-part {
 		justify-content: unset;
+	}
+
+	table td,
+	ul li {
+		font-size: 20px;
 	}
 }
 
