@@ -79,7 +79,10 @@ table td,
 ul li {
 	padding-inline: 10px;
 	font-size: 18px;
-	
+}
+
+table td a:hover {
+	text-decoration: none;
 }
 
 .pipe-grass-left,

@@ -106,27 +106,51 @@ const Footer = () => {
 										<table>
 											<tr>
 												<td>Web</td>
-												<td>dnccudinus.org</td>
+												<td>
+													<a href="https://dnccudinus.org/">
+														dnccudinus.org
+													</a>
+												</td>
 											</tr>
 											<tr>
 												<td>Instagram</td>
-												<td>dnccsemarang</td>
+												<td>
+													<a href="https://www.instagram.com/dnccsemarang/">
+														dnccsemarang
+													</a>
+												</td>
 											</tr>
 											<tr>
 												<td>Tiktok</td>
-												<td>dnccsemarang</td>
+												<td>
+													<a href="https://www.tiktok.com/@dnccsemarang">
+														dnccsemarang
+													</a>
+												</td>
 											</tr>
 											<tr>
 												<td>Youtube</td>
-												<td>DNCC</td>
+												<td>
+													<a href="https://www.youtube.com/@dnccsemarang">
+														DNCC
+													</a>
+												</td>
 											</tr>
 											<tr>
 												<td>Discord</td>
-												<td>discorddncc</td>
+												<td>
+													<a href="http://bit.ly/discorddncc">
+														discorddncc
+													</a>
+												</td>
 											</tr>
 											<tr>
 												<td>Telegram</td>
-												<td>dncc_official</td>
+												<td>
+													<a href="http://t.me/dncc_official">
+														dncc_official
+													</a>
+												</td>
 											</tr>
 										</table>
 									</div>

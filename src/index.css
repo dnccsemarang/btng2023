@@ -558,7 +558,7 @@ a {
 
 @media (max-width: 768px) {
 	.title.with-arrows {
-		background-size: 1rem, 1rem;
+		background-size: 3rem, 3rem;
 		background-position:
 			left center,
 			right center; /* Sesuaikan posisi sesuai kebutuhan */
