@@ -21,7 +21,7 @@ const Jadwal = () => {
 					<div className="pixel-cornerss">
 						<Pixel>
 							<li className="pixelcorner">
-								<Text>Pendaftaran : Jumat, 8 September - Jumat, 22 September</Text>
+								<Text>Pendaftaran : Selasa, 5 September - Jumat, 22 September</Text>
 							</li>
 							<li className="pixelcorner">
 								<Text>Opening : Sabtu, 23 September 2023</Text>

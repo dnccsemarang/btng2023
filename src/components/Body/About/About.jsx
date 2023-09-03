@@ -4,7 +4,7 @@ import { useTypewriter } from 'react-simple-typewriter';
 function About() {
 	const [typeEffect] = useTypewriter({
 		words: [
-			'BTNG (Basic Training Next Generation) adalah acara DNCC sebagai gerbang awal bagi mahasiswa yang ingin menjadi anggota di UKM DNCC. Acara ini bertujuan untuk memberikan pelatihan kepada calon anggota baru agar memiliki pengetahuan yang unggul dalam divisi yang dipilih.',
+			'BTNG (Basic Training Next Generation) adalah acara DNCC sebagai gerbang awal bagi mahasiswa semester 1 sampai semester 5 yang ingin menjadi anggota di UKM DNCC. Acara ini bertujuan untuk memberikan pelatihan kepada calon anggota baru agar memiliki pengetahuan yang unggul dalam divisi yang dipilih.',
 		],
 		loop: 1,
 		typeSpeed: 50,
