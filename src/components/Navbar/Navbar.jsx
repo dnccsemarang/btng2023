@@ -87,7 +87,7 @@ const NavList = styled.ul`
 		align-items: flex-start;
 		height: 100%;
 		position: fixed;
-		z-index: 1;
+		z-index: 2;
 		top: 0;
 		left: 0;
 		background-color: #009dff;
