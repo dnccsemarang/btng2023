@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import udinus from '../../assets/FooterAssets/udinus.png';
-import doscomLogo from '../../assets/FooterAssets/media partner/doscom.png'
-import gdscLogo from '../../assets/FooterAssets/media partner/gdsc.png'
-import ilkomLogo from '../../assets/FooterAssets/media partner/ilkom.png'
-import drcLogo from '../../assets/FooterAssets/media partner/drc.png'
+import doscomLogo from '../../assets/FooterAssets/media partner/doscom.png';
+import gdscLogo from '../../assets/FooterAssets/media partner/gdsc.png';
+import ilkomLogo from '../../assets/FooterAssets/media partner/ilkom.png';
+import drcLogo from '../../assets/FooterAssets/media partner/drc.png';
 import './Footer.css';
 import '../../../src/index.css';
 const Footer = () => {
@@ -144,9 +144,11 @@ const Footer = () => {
 						</div>
 					</div>
 				</div>
-				<div className={`back-to-top-container ${scrollY > scrollThreshold ? 'visible' : ''} logo-pixel-corners--wrapper`}>
+				<div
+					className={`back-to-top-container ${scrollY > scrollThreshold ? 'visible' : ''} logo-pixel-corners--wrapper`}
+				>
 					<div className="back-to-top" onClick={handleScrollToTop}>
-						<span>&uarr;</span>
+						<span>^</span>
 					</div>
 				</div>
 				<div className="footer-background">
