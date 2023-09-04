@@ -4,6 +4,10 @@ footer {
 	margin-top: 10vw !important;
 }
 
+.contact-person-content a {
+	color: #000;
+}
+
 /* style for daftar button */
 .daftar-btn {
 	padding: 20px 5px;
@@ -75,8 +79,8 @@ ul li {
 	font-size: 18px;
 }
 
-table td a:hover {
-	text-decoration: none;
+table td a {
+	color: #000;
 }
 
 .pipe-grass-left,

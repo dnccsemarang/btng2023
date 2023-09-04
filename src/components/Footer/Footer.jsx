@@ -4,6 +4,7 @@ import doscomLogo from '../../assets/FooterAssets/media partner/doscom.png';
 import gdscLogo from '../../assets/FooterAssets/media partner/gdsc.png';
 import ilkomLogo from '../../assets/FooterAssets/media partner/ilkom.png';
 import drcLogo from '../../assets/FooterAssets/media partner/drc.png';
+import sisfoLogo from '../../assets/FooterAssets/media partner/sisfo.png';
 import './Footer.css';
 import '../../../src/index.css';
 const Footer = () => {
@@ -97,6 +98,13 @@ const Footer = () => {
 											</div>
 										</div>
 									</div>
+									<div className="partner-logo-item">
+										<div className="logo-pixel-corners--wrapper">
+											<div className="logo-pixel-corners">
+												<img src={sisfoLogo} alt="" className="partner-logo" />
+											</div>
+										</div>
+									</div>
 								</div>
 							</div>
 							<div className="social-media-part" data-aos="fade-down">
@@ -160,8 +168,16 @@ const Footer = () => {
 								<span className="part-title">contact person</span>
 								<div className="contact-person-content">
 									<ul>
-										<li>085156190936 (Darnell)</li>
-										<li>089669914450 (Mita)</li>
+										<li>
+											<a target="_blank" rel="noopener noreferrer" href="https://wa.me/085156190936">
+												085156190936 (Darnell)
+											</a>
+										</li>
+										<li>
+											<a target="_blank" rel="noopener noreferrer" href="https://wa.me/089669914450">
+												089669914450 (Mita)
+											</a>
+										</li>
 									</ul>
 								</div>
 							</div>
