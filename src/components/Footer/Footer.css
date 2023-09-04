@@ -9,6 +9,7 @@ footer {
 }
 
 /* style for daftar button */
+
 .daftar-btn {
 	padding: 20px 5px;
 	color: #3f5683;
@@ -17,6 +18,10 @@ footer {
 
 .daftar-btn h1 {
 	font-size: 3vw;
+}
+
+.daftar-btn a {
+	text-decoration: none;
 }
 
 /* font style for footer element */
