@@ -170,7 +170,7 @@ const Footer = () => {
 				</div>
 				<div className={`back-to-top-container ${scrollY > scrollThreshold ? 'visible' : ''} logo-pixel-corners--wrapper`}>
 					<div className="back-to-top" onClick={handleScrollToTop}>
-						<span>&uarr;</span>
+						<span>^</span>
 					</div>
 				</div>
 				<div className="footer-background">
