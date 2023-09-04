@@ -698,8 +698,8 @@ a {
 .content {
 	/* padding: 2vw 2.5vw; */
 	padding-inline: 30px;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-top: 15px;
+	padding-bottom: 15px;
 	top: 0;
 	position: absolute;
 	z-index: 1;
@@ -799,9 +799,9 @@ img.icon-multimedia {
 	}
 	.content {
 		position: absolute;
-		padding-inline: 3vw;
+		/* padding-inline: 3vw;
 		padding-top: 2vw;
-		padding-bottom: 2vw;
+		padding-bottom: 2vw; */
 	}
 	.content h3 {
 		font-size: 3vw;
@@ -848,7 +848,7 @@ img.icon-multimedia {
 	}
 
 	.content {
-		padding: 5vw;
+		/* padding: 5vw; */
 	}
 
 	.segment-devisi h3 {

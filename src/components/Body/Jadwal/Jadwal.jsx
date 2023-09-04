@@ -21,13 +21,19 @@ const Jadwal = () => {
 					<div className="pixel-cornerss">
 						<Pixel>
 							<li className="pixelcorner">
-								<Text>Pendaftaran : Selasa, 5 September - Jumat, 22 September</Text>
+								<Text>Pendaftaran : Selasa, 5 September - Rabu, 20 September</Text>
+							</li>
+							<li className="pixelcorner">
+								<Text>Penugasan : Kamis, 21 September - Jumat, 22 September</Text>
 							</li>
 							<li className="pixelcorner">
 								<Text>Opening : Sabtu, 23 September 2023</Text>
 							</li>
 							<li className="pixelcorner">
 								<Text>Pelatihan : Senin, 25 September - Jumat, 27 Oktober 2023 (4 Pertemuan)</Text>
+							</li>
+							<li className="pixelcorner">
+								<Text>Project Akhir : Minggu, 22 Oktober - Jumat, 27 Oktober 2023 (4 Pertemuan)</Text>
 							</li>
 							<li className="pixelcorner">
 								<Text>Penutupan : Sabtu, 28 Oktober 2023</Text>
