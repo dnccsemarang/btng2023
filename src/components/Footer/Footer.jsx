@@ -169,12 +169,12 @@ const Footer = () => {
 								<div className="contact-person-content">
 									<ul>
 										<li>
-											<a target="_blank" rel="noopener noreferrer" href="https://wa.me/085156190936">
+											<a target="_blank" rel="noopener noreferrer" href="https://wa.me/6285156190936">
 												085156190936 (Darnell)
 											</a>
 										</li>
 										<li>
-											<a target="_blank" rel="noopener noreferrer" href="https://wa.me/089669914450">
+											<a target="_blank" rel="noopener noreferrer" href="https://wa.me/6289669914450">
 												089669914450 (Mita)
 											</a>
 										</li>
