@@ -697,9 +697,9 @@ a {
 
 .content {
 	/* padding: 2vw 2.5vw; */
-	padding-inline: 2vw;
-	padding-top: 1vw;
-	padding-bottom: 1vw;
+	padding-inline: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	top: 0;
 	position: absolute;
 	z-index: 1;
@@ -1038,6 +1038,7 @@ img.icon-multimedia {
 /* ----------------------BACK TO TOP BUTTON-------------------------- */
 .back-to-top-container {
 	position: fixed;
+	z-index: 5;
 	bottom: 20px;
 	right: 20px;
 	opacity: 0;

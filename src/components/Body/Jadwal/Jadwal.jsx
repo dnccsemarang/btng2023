@@ -7,7 +7,7 @@ import charJadwal from '../../../assets/char-jadwal.png';
 const Jadwal = () => {
 	return (
 		<>
-			<Gambar1 data-aos="fade-right">
+			<Gambar1>
 				<JadwalGambar>
 					<JamurIMG src={jamur} alt="" />
 					<Title id="jadwal">JADWAL</Title>
@@ -36,7 +36,7 @@ const Jadwal = () => {
 					</div>
 				</div>
 			</Jadwalwrap>
-			<Gambar2 data-aos="fade-left">
+			<Gambar2>
 				<div>
 					<Title>BTNG 2023</Title>
 					<JamurImg src={jamur} alt="" />
