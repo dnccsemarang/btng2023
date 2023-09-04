@@ -687,12 +687,12 @@ a {
 	z-index: 0;
 	min-height: fit-content;
 	width: 25vw;
-	min-height: fit-content;
 }
 
 .segment-devisi img {
 	width: 100%;
-	min-height: max-content;
+	/* min-height: max-content; */
+	position: relative;
 }
 
 .content {
@@ -720,7 +720,7 @@ a {
 	text-align: center;
 	font-size: 2.3vw;
 	text-shadow: 0px 3px 2px rgba(0, 0, 0, 0.6);
-	margin-bottom: 1vw;
+	/* margin-bottom: 1vw; */
 }
 
 .content p {
@@ -788,7 +788,20 @@ img.icon-multimedia {
 	right: -3vw;
 }
 
-@media (max-width: 980px) {
+@media (min-width: 1281px) {
+	.content {
+		padding-inline: 3vw;
+		padding-top: 2vw;
+		padding-bottom: 2vw;
+	}
+
+	.content p,
+	div.segment-devisi div.content a {
+		font-size: 1.5vw;
+	}
+}
+
+@media (max-width: 1024px) {
 	.atas,
 	.bawah {
 		position: static;
@@ -805,7 +818,7 @@ img.icon-multimedia {
 	}
 	.content h3 {
 		font-size: 3vw;
-		margin-bottom: 2vw;
+		/* margin-bottom: 2vw; */
 	}
 	.content p,
 	div.segment-devisi div.content a {
@@ -838,7 +851,7 @@ img.icon-multimedia {
 	}
 }
 
-@media (max-width: 600px) {
+@media (max-width: 769px) {
 	.title {
 		font-size: 10vw;
 		margin-inline: 10px;
@@ -848,7 +861,7 @@ img.icon-multimedia {
 	}
 
 	.content {
-		/* padding: 5vw; */
+		padding: 5vw;
 	}
 
 	.segment-devisi h3 {
@@ -903,6 +916,22 @@ img.icon-multimedia {
 	img.icon-multimedia {
 		top: -3.5vw;
 		right: -5vw;
+	}
+}
+@media (max-width: 425px) {
+	.content {
+		padding: 5vw;
+	}
+
+	.segment-devisi h3 {
+		font-size: 6vw;
+		margin-bottom: 4vw;
+	}
+
+	.content p,
+	div.segment-devisi div.content a {
+		font-size: 5vw;
+		line-height: 5vw;
 	}
 }
 /* ----------------------END SECTION DIVISI CSS---------------------- */

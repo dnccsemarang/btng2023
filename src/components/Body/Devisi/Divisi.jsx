@@ -54,7 +54,13 @@ const Divisi = () => {
 					<div className="content">
 						<h3>Divisi Jaringan</h3>
 						<p>Mempelajari Cisco, Paket Tracer, dll. untuk menghubungkan beberapa komputer.</p>
-						<a href="">Lihat silabus &gt;&gt;&gt;</a>
+						<a
+							target="_blank"
+							rel="noopener noreferrer"
+							href="https://drive.google.com/file/d/1V9v3wvUPEE07025tCSRzjljl1nitgepJ/view?usp=sharing"
+						>
+							Lihat silabus &gt;&gt;&gt;
+						</a>
 					</div>
 					<img className="icon-divisi icon-jaringan" src={iconJaringan} alt="" />
 				</div>
