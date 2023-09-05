@@ -89,7 +89,7 @@ const Divisi = () => {
 						<a
 							target="_blank"
 							rel="noopener noreferrer"
-							href="https://drive.google.com/file/d/1fuRxzBBfsgUn2JXKNKjgQWyM0ZeEIL6g/view?usp=sharing"
+							href="https://drive.google.com/file/d/1KC3OJHx00VUqHcPZRA3zW5Jt_1IblgwO/view?usp=sharing"
 						>
 							Lihat silabus &gt;&gt;&gt;
 						</a>
