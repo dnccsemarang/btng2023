@@ -7,7 +7,7 @@ import charJadwal from '../../../assets/char-jadwal.png';
 const Jadwal = () => {
 	return (
 		<>
-			<Gambar1 data-aos="fade-right">
+			<Gambar1>
 				<JadwalGambar>
 					<JamurIMG src={jamur} alt="" />
 					<Title id="jadwal">JADWAL</Title>
@@ -21,7 +21,10 @@ const Jadwal = () => {
 					<div className="pixel-cornerss">
 						<Pixel>
 							<li className="pixelcorner">
-								<Text>Pendaftaran : Selasa, 5 September - Jumat, 22 September</Text>
+								<Text>Pendaftaran : Selasa, 5 September - Rabu, 20 September</Text>
+							</li>
+							<li className="pixelcorner">
+								<Text>Penugasan : Kamis, 21 September - Jumat, 22 September</Text>
 							</li>
 							<li className="pixelcorner">
 								<Text>Opening : Sabtu, 23 September 2023</Text>
@@ -30,13 +33,16 @@ const Jadwal = () => {
 								<Text>Pelatihan : Senin, 25 September - Jumat, 27 Oktober 2023 (4 Pertemuan)</Text>
 							</li>
 							<li className="pixelcorner">
+								<Text>Project Akhir : Minggu, 22 Oktober - Jumat, 27 Oktober 2023 (4 Pertemuan)</Text>
+							</li>
+							<li className="pixelcorner">
 								<Text>Penutupan : Sabtu, 28 Oktober 2023</Text>
 							</li>
 						</Pixel>
 					</div>
 				</div>
 			</Jadwalwrap>
-			<Gambar2 data-aos="fade-left">
+			<Gambar2>
 				<div>
 					<Title>BTNG 2023</Title>
 					<JamurImg src={jamur} alt="" />

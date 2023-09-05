@@ -4,7 +4,12 @@ footer {
 	margin-top: 10vw !important;
 }
 
+.contact-person-content a {
+	color: #000;
+}
+
 /* style for daftar button */
+
 .daftar-btn {
 	padding: 20px 5px;
 	color: #3f5683;
@@ -13,6 +18,10 @@ footer {
 
 .daftar-btn h1 {
 	font-size: 3vw;
+}
+
+.daftar-btn a {
+	text-decoration: none;
 }
 
 /* font style for footer element */
@@ -39,25 +48,19 @@ span.part-title {
 	object-fit: contain;
 }
 
-.media-partner-content {
-	display: grid !important;
-	grid-template-columns: repeat(3, 1fr);
-	justify-content: center;
-	align-items: center;
-}
-
 .partner-logo-item {
-	margin: 10px;
+	margin: 5px;
 }
 
 .media-partner-content {
 	display: flex;
+	width: 20rem;
+	gap: 2px;
 	flex-wrap: wrap !important;
 	justify-content: center;
 	text-align: center;
 	align-items: center;
 }
-
 
 /* sett font size for text on social media table */
 .media-partner-part,
@@ -81,8 +84,8 @@ ul li {
 	font-size: 18px;
 }
 
-table td a:hover {
-	text-decoration: none;
+table td a {
+	color: #000;
 }
 
 .pipe-grass-left,
@@ -109,7 +112,6 @@ table td a:hover {
 	width: 100vw;
 	justify-content: space-between;
 }
-
 
 .text-daftar {
 	font-size: 1vw;
@@ -154,42 +156,44 @@ table td a:hover {
 .logo-pixel-corners,
 .logo-pixel-corners--wrapper {
 	background-color: #fff;
-	clip-path: polygon(0px calc(100% - 20px),
-			4px calc(100% - 20px),
-			4px calc(100% - 12px),
-			8px calc(100% - 12px),
-			8px calc(100% - 8px),
-			12px calc(100% - 8px),
-			12px calc(100% - 4px),
-			20px calc(100% - 4px),
-			20px 100%,
-			calc(100% - 20px) 100%,
-			calc(100% - 20px) calc(100% - 4px),
-			calc(100% - 12px) calc(100% - 4px),
-			calc(100% - 12px) calc(100% - 8px),
-			calc(100% - 8px) calc(100% - 8px),
-			calc(100% - 8px) calc(100% - 12px),
-			calc(100% - 4px) calc(100% - 12px),
-			calc(100% - 4px) calc(100% - 20px),
-			100% calc(100% - 20px),
-			100% 20px,
-			calc(100% - 4px) 20px,
-			calc(100% - 4px) 12px,
-			calc(100% - 8px) 12px,
-			calc(100% - 8px) 8px,
-			calc(100% - 12px) 8px,
-			calc(100% - 12px) 4px,
-			calc(100% - 20px) 4px,
-			calc(100% - 20px) 0px,
-			20px 0px,
-			20px 4px,
-			12px 4px,
-			12px 8px,
-			8px 8px,
-			8px 12px,
-			4px 12px,
-			4px 20px,
-			0px 20px);
+	clip-path: polygon(
+		0px calc(100% - 20px),
+		4px calc(100% - 20px),
+		4px calc(100% - 12px),
+		8px calc(100% - 12px),
+		8px calc(100% - 8px),
+		12px calc(100% - 8px),
+		12px calc(100% - 4px),
+		20px calc(100% - 4px),
+		20px 100%,
+		calc(100% - 20px) 100%,
+		calc(100% - 20px) calc(100% - 4px),
+		calc(100% - 12px) calc(100% - 4px),
+		calc(100% - 12px) calc(100% - 8px),
+		calc(100% - 8px) calc(100% - 8px),
+		calc(100% - 8px) calc(100% - 12px),
+		calc(100% - 4px) calc(100% - 12px),
+		calc(100% - 4px) calc(100% - 20px),
+		100% calc(100% - 20px),
+		100% 20px,
+		calc(100% - 4px) 20px,
+		calc(100% - 4px) 12px,
+		calc(100% - 8px) 12px,
+		calc(100% - 8px) 8px,
+		calc(100% - 12px) 8px,
+		calc(100% - 12px) 4px,
+		calc(100% - 20px) 4px,
+		calc(100% - 20px) 0px,
+		20px 0px,
+		20px 4px,
+		12px 4px,
+		12px 8px,
+		8px 8px,
+		8px 12px,
+		4px 12px,
+		4px 20px,
+		0px 20px
+	);
 	position: relative;
 }
 
@@ -204,108 +208,112 @@ table td a:hover {
 
 .logo-pixel-corners--wrapper .logo-pixel-corners {
 	display: block;
-	clip-path: polygon(4px 20px,
-			8px 20px,
-			8px 12px,
-			12px 12px,
-			12px 8px,
-			20px 8px,
-			20px 4px,
-			calc(100% - 20px) 4px,
-			calc(100% - 20px) 8px,
-			calc(100% - 12px) 8px,
-			calc(100% - 12px) 12px,
-			calc(100% - 8px) 12px,
-			calc(100% - 8px) 20px,
-			calc(100% - 4px) 20px,
-			calc(100% - 4px) calc(100% - 20px),
-			calc(100% - 8px) calc(100% - 20px),
-			calc(100% - 8px) calc(100% - 12px),
-			calc(100% - 12px) calc(100% - 12px),
-			calc(100% - 12px) calc(100% - 8px),
-			calc(100% - 20px) calc(100% - 8px),
-			calc(100% - 20px) calc(100% - 4px),
-			20px calc(100% - 4px),
-			20px calc(100% - 8px),
-			12px calc(100% - 8px),
-			12px calc(100% - 12px),
-			8px calc(100% - 12px),
-			8px calc(100% - 20px),
-			4px calc(100% - 20px));
+	clip-path: polygon(
+		4px 20px,
+		8px 20px,
+		8px 12px,
+		12px 12px,
+		12px 8px,
+		20px 8px,
+		20px 4px,
+		calc(100% - 20px) 4px,
+		calc(100% - 20px) 8px,
+		calc(100% - 12px) 8px,
+		calc(100% - 12px) 12px,
+		calc(100% - 8px) 12px,
+		calc(100% - 8px) 20px,
+		calc(100% - 4px) 20px,
+		calc(100% - 4px) calc(100% - 20px),
+		calc(100% - 8px) calc(100% - 20px),
+		calc(100% - 8px) calc(100% - 12px),
+		calc(100% - 12px) calc(100% - 12px),
+		calc(100% - 12px) calc(100% - 8px),
+		calc(100% - 20px) calc(100% - 8px),
+		calc(100% - 20px) calc(100% - 4px),
+		20px calc(100% - 4px),
+		20px calc(100% - 8px),
+		12px calc(100% - 8px),
+		12px calc(100% - 12px),
+		8px calc(100% - 12px),
+		8px calc(100% - 20px),
+		4px calc(100% - 20px)
+	);
 }
 
 .logo-pixel-corners::after,
 .logo-pixel-corners--wrapper::after {
 	content: '';
 	position: absolute;
-	clip-path: polygon(0px calc(100% - 20px),
-			4px calc(100% - 20px),
-			4px calc(100% - 12px),
-			8px calc(100% - 12px),
-			8px calc(100% - 8px),
-			12px calc(100% - 8px),
-			12px calc(100% - 4px),
-			20px calc(100% - 4px),
-			20px 100%,
-			calc(100% - 20px) 100%,
-			calc(100% - 20px) calc(100% - 4px),
-			calc(100% - 12px) calc(100% - 4px),
-			calc(100% - 12px) calc(100% - 8px),
-			calc(100% - 8px) calc(100% - 8px),
-			calc(100% - 8px) calc(100% - 12px),
-			calc(100% - 4px) calc(100% - 12px),
-			calc(100% - 4px) calc(100% - 20px),
-			100% calc(100% - 20px),
-			100% 20px,
-			calc(100% - 4px) 20px,
-			calc(100% - 4px) 12px,
-			calc(100% - 8px) 12px,
-			calc(100% - 8px) 8px,
-			calc(100% - 12px) 8px,
-			calc(100% - 12px) 4px,
-			calc(100% - 20px) 4px,
-			calc(100% - 20px) 0px,
-			20px 0px,
-			20px 4px,
-			12px 4px,
-			12px 8px,
-			8px 8px,
-			8px 12px,
-			4px 12px,
-			4px 20px,
-			0px 20px,
-			0px 50%,
-			4px 50%,
-			4px 20px,
-			8px 20px,
-			8px 12px,
-			12px 12px,
-			12px 8px,
-			20px 8px,
-			20px 4px,
-			calc(100% - 20px) 4px,
-			calc(100% - 20px) 8px,
-			calc(100% - 12px) 8px,
-			calc(100% - 12px) 12px,
-			calc(100% - 8px) 12px,
-			calc(100% - 8px) 20px,
-			calc(100% - 4px) 20px,
-			calc(100% - 4px) calc(100% - 20px),
-			calc(100% - 8px) calc(100% - 20px),
-			calc(100% - 8px) calc(100% - 12px),
-			calc(100% - 12px) calc(100% - 12px),
-			calc(100% - 12px) calc(100% - 8px),
-			calc(100% - 20px) calc(100% - 8px),
-			calc(100% - 20px) calc(100% - 4px),
-			20px calc(100% - 4px),
-			20px calc(100% - 8px),
-			12px calc(100% - 8px),
-			12px calc(100% - 12px),
-			8px calc(100% - 12px),
-			8px calc(100% - 20px),
-			4px calc(100% - 20px),
-			4px 50%,
-			0px 50%);
+	clip-path: polygon(
+		0px calc(100% - 20px),
+		4px calc(100% - 20px),
+		4px calc(100% - 12px),
+		8px calc(100% - 12px),
+		8px calc(100% - 8px),
+		12px calc(100% - 8px),
+		12px calc(100% - 4px),
+		20px calc(100% - 4px),
+		20px 100%,
+		calc(100% - 20px) 100%,
+		calc(100% - 20px) calc(100% - 4px),
+		calc(100% - 12px) calc(100% - 4px),
+		calc(100% - 12px) calc(100% - 8px),
+		calc(100% - 8px) calc(100% - 8px),
+		calc(100% - 8px) calc(100% - 12px),
+		calc(100% - 4px) calc(100% - 12px),
+		calc(100% - 4px) calc(100% - 20px),
+		100% calc(100% - 20px),
+		100% 20px,
+		calc(100% - 4px) 20px,
+		calc(100% - 4px) 12px,
+		calc(100% - 8px) 12px,
+		calc(100% - 8px) 8px,
+		calc(100% - 12px) 8px,
+		calc(100% - 12px) 4px,
+		calc(100% - 20px) 4px,
+		calc(100% - 20px) 0px,
+		20px 0px,
+		20px 4px,
+		12px 4px,
+		12px 8px,
+		8px 8px,
+		8px 12px,
+		4px 12px,
+		4px 20px,
+		0px 20px,
+		0px 50%,
+		4px 50%,
+		4px 20px,
+		8px 20px,
+		8px 12px,
+		12px 12px,
+		12px 8px,
+		20px 8px,
+		20px 4px,
+		calc(100% - 20px) 4px,
+		calc(100% - 20px) 8px,
+		calc(100% - 12px) 8px,
+		calc(100% - 12px) 12px,
+		calc(100% - 8px) 12px,
+		calc(100% - 8px) 20px,
+		calc(100% - 4px) 20px,
+		calc(100% - 4px) calc(100% - 20px),
+		calc(100% - 8px) calc(100% - 20px),
+		calc(100% - 8px) calc(100% - 12px),
+		calc(100% - 12px) calc(100% - 12px),
+		calc(100% - 12px) calc(100% - 8px),
+		calc(100% - 20px) calc(100% - 8px),
+		calc(100% - 20px) calc(100% - 4px),
+		20px calc(100% - 4px),
+		20px calc(100% - 8px),
+		12px calc(100% - 8px),
+		12px calc(100% - 12px),
+		8px calc(100% - 12px),
+		8px calc(100% - 20px),
+		4px calc(100% - 20px),
+		4px 50%,
+		0px 50%
+	);
 	top: 0;
 	bottom: 0;
 	left: 0;
@@ -342,7 +350,8 @@ table td a:hover {
 }
 
 /* responsive screen */
-@media screen and (max-width: 320px) {}
+@media screen and (max-width: 320px) {
+}
 
 .footer-bg-img {
 	margin: -200px 0 -30px 0 !important;

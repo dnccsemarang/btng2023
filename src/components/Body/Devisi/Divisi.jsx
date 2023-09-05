@@ -54,7 +54,13 @@ const Divisi = () => {
 					<div className="content">
 						<h3>Divisi Jaringan</h3>
 						<p>Mempelajari Cisco, Paket Tracer, dll. untuk menghubungkan beberapa komputer.</p>
-						<a href="">Lihat silabus &gt;&gt;&gt;</a>
+						<a
+							target="_blank"
+							rel="noopener noreferrer"
+							href="https://drive.google.com/file/d/1V9v3wvUPEE07025tCSRzjljl1nitgepJ/view?usp=sharing"
+						>
+							Lihat silabus &gt;&gt;&gt;
+						</a>
 					</div>
 					<img className="icon-divisi icon-jaringan" src={iconJaringan} alt="" />
 				</div>
@@ -65,7 +71,13 @@ const Divisi = () => {
 					<div className="content">
 						<h3>Divisi Data Analist</h3>
 						<p>Mempelajari analisis dan riset data dengan menggunakan tools tertentu.</p>
-						<a href="">Lihat silabus &gt;&gt;&gt;</a>
+						<a
+							target="_blank"
+							rel="noopener noreferrer"
+							href="https://drive.google.com/file/d/1uiDCkLHI2wL9zftfF8viYrlk4n3DXiS8/view?usp=sharing"
+						>
+							Lihat silabus &gt;&gt;&gt;
+						</a>
 					</div>
 					<img className="icon-divisi icon-data" src={iconData} alt="" />
 				</div>
@@ -74,7 +86,13 @@ const Divisi = () => {
 					<div className="content">
 						<h3>Divisi Game</h3>
 						<p>Mempelajari pengembangan dan pengelolaan game.</p>
-						<a href="">Lihat silabus &gt;&gt;&gt;</a>
+						<a
+							target="_blank"
+							rel="noopener noreferrer"
+							href="https://drive.google.com/file/d/1fuRxzBBfsgUn2JXKNKjgQWyM0ZeEIL6g/view?usp=sharing"
+						>
+							Lihat silabus &gt;&gt;&gt;
+						</a>
 					</div>
 					<img className="icon-divisi icon-game" src={iconGame} alt="" />
 				</div>

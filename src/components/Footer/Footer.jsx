@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import udinus from '../../assets/FooterAssets/udinus.png';
-import doscomLogo from '../../assets/FooterAssets/media partner/doscom.png'
-import gdscLogo from '../../assets/FooterAssets/media partner/gdsc.png'
-import ilkomLogo from '../../assets/FooterAssets/media partner/ilkom.png'
-import drcLogo from '../../assets/FooterAssets/media partner/drc.png'
+import doscomLogo from '../../assets/FooterAssets/media partner/doscom.png';
+import gdscLogo from '../../assets/FooterAssets/media partner/gdsc.png';
+import ilkomLogo from '../../assets/FooterAssets/media partner/ilkom.png';
+import drcLogo from '../../assets/FooterAssets/media partner/drc.png';
+import sisfoLogo from '../../assets/FooterAssets/media partner/sisfo.png';
 import './Footer.css';
 import '../../../src/index.css';
 const Footer = () => {
@@ -97,6 +98,13 @@ const Footer = () => {
 											</div>
 										</div>
 									</div>
+									<div className="partner-logo-item">
+										<div className="logo-pixel-corners--wrapper">
+											<div className="logo-pixel-corners">
+												<img src={sisfoLogo} alt="" className="partner-logo" />
+											</div>
+										</div>
+									</div>
 								</div>
 							</div>
 							<div className="social-media-part" data-aos="fade-down">
@@ -107,7 +115,7 @@ const Footer = () => {
 											<tr>
 												<td>Web</td>
 												<td>
-													<a href="https://dnccudinus.org/">
+													<a target="_blank" rel="noopener noreferrer" href="https://dnccudinus.org/">
 														dnccudinus.org
 													</a>
 												</td>
@@ -115,7 +123,7 @@ const Footer = () => {
 											<tr>
 												<td>Instagram</td>
 												<td>
-													<a href="https://www.instagram.com/dnccsemarang/">
+													<a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/dnccsemarang/">
 														dnccsemarang
 													</a>
 												</td>
@@ -123,7 +131,7 @@ const Footer = () => {
 											<tr>
 												<td>Tiktok</td>
 												<td>
-													<a href="https://www.tiktok.com/@dnccsemarang">
+													<a target="_blank" rel="noopener noreferrer" href="https://www.tiktok.com/@dnccsemarang">
 														dnccsemarang
 													</a>
 												</td>
@@ -131,7 +139,7 @@ const Footer = () => {
 											<tr>
 												<td>Youtube</td>
 												<td>
-													<a href="https://www.youtube.com/@dnccsemarang">
+													<a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/@dnccsemarang">
 														DNCC
 													</a>
 												</td>
@@ -139,7 +147,7 @@ const Footer = () => {
 											<tr>
 												<td>Discord</td>
 												<td>
-													<a href="http://bit.ly/discorddncc">
+													<a target="_blank" rel="noopener noreferrer" href="http://bit.ly/discorddncc">
 														discorddncc
 													</a>
 												</td>
@@ -147,7 +155,7 @@ const Footer = () => {
 											<tr>
 												<td>Telegram</td>
 												<td>
-													<a href="http://t.me/dncc_official">
+													<a target="_blank" rel="noopener noreferrer" href="http://t.me/dncc_official">
 														dncc_official
 													</a>
 												</td>
@@ -160,15 +168,25 @@ const Footer = () => {
 								<span className="part-title">contact person</span>
 								<div className="contact-person-content">
 									<ul>
-										<li>085156190936 (Darnell)</li>
-										<li>089669914450 (Mita)</li>
+										<li>
+											<a target="_blank" rel="noopener noreferrer" href="https://wa.me/6285156190936">
+												085156190936 (Darnell)
+											</a>
+										</li>
+										<li>
+											<a target="_blank" rel="noopener noreferrer" href="https://wa.me/6289669914450">
+												089669914450 (Mita)
+											</a>
+										</li>
 									</ul>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div className={`back-to-top-container ${scrollY > scrollThreshold ? 'visible' : ''} logo-pixel-corners--wrapper`}>
+				<div
+					className={`back-to-top-container ${scrollY > scrollThreshold ? 'visible' : ''} logo-pixel-corners--wrapper`}
+				>
 					<div className="back-to-top" onClick={handleScrollToTop}>
 						<span>^</span>
 					</div>
