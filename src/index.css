@@ -1034,7 +1034,7 @@ img.icon-multimedia {
 
 /* ----------------------BACK TO TOP BUTTON-------------------------- */
 .back-to-top-container {
-	z-index: 1;
+	z-index: 7;
 	position: fixed;
 	bottom: 20px;
 	right: 20px;
