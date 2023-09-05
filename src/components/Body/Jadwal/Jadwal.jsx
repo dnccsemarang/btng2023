@@ -58,7 +58,7 @@ const JadwalGambar = styled.div``;
 const Gambar1 = styled.div``;
 
 const JamurIMG = styled.img`
-	@media screen and (min-width: 320px) {
+	@media screen and (max-width: 559px) {
 		width: 49px;
 		height: 37px;
 	}
@@ -69,7 +69,7 @@ const JamurIMG = styled.img`
 `;
 
 const TanahImg = styled.img`
-	@media screen and (min-width: 320px) {
+	@media screen and (max-width: 559px) {
 		width: 203px;
 		height: 29px;
 	}
@@ -96,10 +96,8 @@ const Title = styled.span`
 		text-shadow: 0px 1px 0px #000;
 		filter: drop-shadow(1px 1px #000);
 	}
-	@media screen and (max-width: 600px) {
+	@media screen and (min-width: 600px) {
 		font-size: 8vw;
-		text-shadow: 0px 2px 0px #000;
-		filter: drop-shadow(2px 2px #000);
 	}
 `;
 
@@ -110,7 +108,7 @@ const Pixel = styled.ul`
 
 const JamurImg = styled.img`
 	transform: scaleX(-1);
-	@media screen and (min-width: 320px) {
+	@media screen and (max-width: 559px) {
 		width: 49px;
 		height: 37px;
 	}
@@ -122,7 +120,7 @@ const JamurImg = styled.img`
 
 const TanahIMG = styled.img`
 	transform: scaleX(-1);
-	@media screen and (min-width: 320px) {
+	@media screen and (max-width: 559px) {
 		width: 203px;
 		height: 29px;
 	}

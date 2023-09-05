@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import udinus from '../../assets/FooterAssets/udinus.png';
+import udinus from '../../assets/FooterAssets/udinus.webp';
 import doscomLogo from '../../assets/FooterAssets/media partner/doscom.webp';
 import gdscLogo from '../../assets/FooterAssets/media partner/gdsc.webp';
 import ilkomLogo from '../../assets/FooterAssets/media partner/ilkom.webp';
@@ -37,7 +37,7 @@ const Footer = () => {
 			<footer id="daftar">
 				<div className="footer-title">
 					<div className="footer-title-content">
-						<h1 className="title" data-aos="zoom-in">
+						<h1 className="title">
 							press register<br></br>to enter btng 2023
 						</h1>
 					</div>
@@ -46,7 +46,7 @@ const Footer = () => {
 					<div className="register-btn-part">
 						<div className="daftar-btn-container">
 							<div className="pipe-grass-left"></div>
-							<div className="logo-pixel-corners--wrapper daftar-btn" data-aos="zoom-in">
+							<div className="logo-pixel-corners--wrapper daftar-btn">
 								<a
 									href="https://docs.google.com/forms/d/e/1FAIpQLSe-WnWM4TDdTih_H7ff3ZK7udJKuKv_7QJp6GXjhB9PR02P6A/viewform"
 									target="_blank"
@@ -62,7 +62,7 @@ const Footer = () => {
 					</div>
 					<div className="footer-more-info-container">
 						<div className="more-info-content">
-							<div className="media-partner-part" data-aos="fade-down">
+							<div className="media-partner-part">
 								<span className="part-title">media partner</span>
 								<div className="media-partner-content">
 									<div className="partner-logo-item">
@@ -123,7 +123,7 @@ const Footer = () => {
 									</div>
 								</div>
 							</div>
-							<div className="social-media-part" data-aos="fade-down">
+							<div className="social-media-part">
 								<span className="part-title">social media</span>
 								<div className="social-media-content">
 									<div className="social-media-container">
@@ -180,7 +180,7 @@ const Footer = () => {
 									</div>
 								</div>
 							</div>
-							<div className="contact-person-part" data-aos="fade-down">
+							<div className="contact-person-part">
 								<span className="part-title">contact person</span>
 								<div className="contact-person-content">
 									<ul>
