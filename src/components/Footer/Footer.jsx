@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import udinus from '../../assets/FooterAssets/udinus.png';
-import doscomLogo from '../../assets/FooterAssets/media partner/doscom.png';
-import gdscLogo from '../../assets/FooterAssets/media partner/gdsc.png';
-import ilkomLogo from '../../assets/FooterAssets/media partner/ilkom.png';
-import drcLogo from '../../assets/FooterAssets/media partner/drc.png';
-import sisfoLogo from '../../assets/FooterAssets/media partner/sisfo.png';
-import dkvLogo from '../../assets/FooterAssets/media partner/dkv.png';
-import dpmkmLogo from '../../assets/FooterAssets/media partner/dpmkm.png';
+import doscomLogo from '../../assets/FooterAssets/media partner/doscom.webp';
+import gdscLogo from '../../assets/FooterAssets/media partner/gdsc.webp';
+import ilkomLogo from '../../assets/FooterAssets/media partner/ilkom.webp';
+import drcLogo from '../../assets/FooterAssets/media partner/drc.webp';
+import sisfoLogo from '../../assets/FooterAssets/media partner/sisfo.webp';
+import dkvLogo from '../../assets/FooterAssets/media partner/dkv.webp';
+import dpmkmLogo from '../../assets/FooterAssets/media partner/dpmkm.webp';
 import './Footer.css';
 import '../../../src/index.css';
 const Footer = () => {
@@ -45,7 +45,7 @@ const Footer = () => {
 				<div className="footer-content">
 					<div className="register-btn-part">
 						<div className="daftar-btn-container">
-							<div className="pipe-grass-left" data-aos="fade-right"></div>
+							<div className="pipe-grass-left"></div>
 							<div className="logo-pixel-corners--wrapper daftar-btn" data-aos="zoom-in">
 								<a
 									href="https://docs.google.com/forms/d/e/1FAIpQLSe-WnWM4TDdTih_H7ff3ZK7udJKuKv_7QJp6GXjhB9PR02P6A/viewform"
@@ -57,7 +57,7 @@ const Footer = () => {
 									</div>
 								</a>
 							</div>
-							<div className="pipe-grass-right" data-aos="fade-left"></div>
+							<div className="pipe-grass-right"></div>
 						</div>
 					</div>
 					<div className="footer-more-info-container">
