@@ -3,7 +3,7 @@ import React from 'react';
 function Benefit() {
 	return (
 		<section className="benefit" id="benefit">
-			<div className="title-container" data-aos="zoom-in-down">
+			<div className="title-container">
 				<div className="title-item">
 					<i className="nes-icon is-medium star"></i>
 					<i className="nes-icon is-medium star"></i>

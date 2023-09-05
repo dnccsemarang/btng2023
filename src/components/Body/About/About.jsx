@@ -11,9 +11,7 @@ function About() {
 	// });
 	return (
 		<section className="about" id="about">
-			<h1 className="title with-arrows" data-aos="zoom-in">
-				About BTNG
-			</h1>
+			<h1 className="title with-arrows">About BTNG</h1>
 			<div className="nes-balloon balloon" data-aos="zoom-in">
 				{/* <p style={{ textAlign: 'justify' }}>{typeEffect}</p> */}
 				<p>
