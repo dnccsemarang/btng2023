@@ -11,7 +11,9 @@ function About() {
 	// });
 	return (
 		<section className="about" id="about">
-			<h1 className="title with-arrows">About BTNG</h1>
+			<h1 className="title with-arrows" data-aos="zoom-in">
+				About BTNG
+			</h1>
 			<div className="nes-balloon balloon" data-aos="zoom-in">
 				{/* <p style={{ textAlign: 'justify' }}>{typeEffect}</p> */}
 				<p>
@@ -22,11 +24,11 @@ function About() {
 				</p>
 				<div className="bubble-buttom"></div>
 			</div>
-			<div className="item-about">
+			{/* <div className="item-about">
 				<i alt="Pink Flower" className="flower-left"></i>
 				<i alt="Character About" className="character-center"></i>
 				<i alt="Pink Flower" className="flower-right"></i>
-			</div>
+			</div> */}
 		</section>
 	);
 }
