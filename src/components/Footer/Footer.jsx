@@ -6,7 +6,7 @@ import ilkomLogo from '../../assets/FooterAssets/media partner/ilkom.png';
 import drcLogo from '../../assets/FooterAssets/media partner/drc.png';
 import sisfoLogo from '../../assets/FooterAssets/media partner/sisfo.png';
 import dkvLogo from '../../assets/FooterAssets/media partner/dkv.png';
-import dpmkmLogo from '../../assets/FooterAssets/media partner/dpmkm.jpg';
+import dpmkmLogo from '../../assets/FooterAssets/media partner/dpmkm.png';
 import './Footer.css';
 import '../../../src/index.css';
 const Footer = () => {
