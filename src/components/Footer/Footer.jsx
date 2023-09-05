@@ -37,7 +37,7 @@ const Footer = () => {
 			<footer id="daftar">
 				<div className="footer-title">
 					<div className="footer-title-content">
-						<h1 className="title">
+						<h1 className="title" data-aos="zoom-in">
 							press register<br></br>to enter btng 2023
 						</h1>
 					</div>
@@ -45,8 +45,8 @@ const Footer = () => {
 				<div className="footer-content">
 					<div className="register-btn-part">
 						<div className="daftar-btn-container">
-							<div className="pipe-grass-left"></div>
-							<div className="logo-pixel-corners--wrapper daftar-btn">
+							<div className="pipe-grass-left" data-aos="slide-right"></div>
+							<div className="logo-pixel-corners--wrapper daftar-btn" data-aos="zoom-in">
 								<a
 									href="https://docs.google.com/forms/d/e/1FAIpQLSe-WnWM4TDdTih_H7ff3ZK7udJKuKv_7QJp6GXjhB9PR02P6A/viewform"
 									target="_blank"
@@ -57,11 +57,11 @@ const Footer = () => {
 									</div>
 								</a>
 							</div>
-							<div className="pipe-grass-right"></div>
+							<div className="pipe-grass-right" data-aos="slide-left"></div>
 						</div>
 					</div>
 					<div className="footer-more-info-container">
-						<div className="more-info-content">
+						<div className="more-info-content" data-aos="zoom-in-down">
 							<div className="media-partner-part">
 								<span className="part-title">media partner</span>
 								<div className="media-partner-content">

@@ -24,9 +24,9 @@ function Hero() {
 					</a>
 				</div>
 				<div className="item-hero-bot">
-					<i alt="Rumput" className="rumput-left"></i>
-					<i alt="Diamond" className="diamond"></i>
-					<i alt="Rumput" className="rumput-right"></i>
+					<i alt="Rumput" className="rumput-left" data-aos="slide-right"></i>
+					<i alt="Diamond" className="diamond" data-aos="slide-up"></i>
+					<i alt="Rumput" className="rumput-right" data-aos="slide-left"></i>
 				</div>
 			</div>
 		</section>
