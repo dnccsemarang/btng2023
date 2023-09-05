@@ -351,6 +351,9 @@ table td a {
 
 /* responsive screen */
 @media screen and (max-width: 320px) {
+	.media-partner-content {
+		width: fit-content;
+	}
 }
 
 .footer-bg-img {

@@ -3,13 +3,15 @@ import React from 'react';
 function Benefit() {
 	return (
 		<section className="benefit" id="benefit">
-			<div className="title-container" data-aos="zoom-in">
-				<div className="title-item">
+			<div className="title-container">
+				<div className="title-item" data-aos="fade-right" data-aos-offset="250" data-aos-duration="350">
 					<i className="nes-icon is-medium star"></i>
 					<i className="nes-icon is-medium star"></i>
 				</div>
-				<h1 className="title">benefit</h1>
-				<div className="title-item">
+				<h1 className="title" data-aos="zoom-in" data-aos-offset="250" data-aos-duration="320">
+					benefit
+				</h1>
+				<div className="title-item" data-aos="fade-left" data-aos-offset="250" data-aos-duration="350">
 					<i className="nes-icon is-medium star"></i>
 					<i className="nes-icon is-medium star"></i>
 				</div>
