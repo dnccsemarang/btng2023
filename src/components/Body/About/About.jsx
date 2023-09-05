@@ -14,8 +14,9 @@ function About() {
 			<h1 className="title with-arrows" data-aos="zoom-in">
 				About BTNG
 			</h1>
-			<div className="nes-balloon balloon" data-aos="zoom-in">
-				{/* <p style={{ textAlign: 'justify' }}>{typeEffect}</p> */}
+			{/* <p style={{ textAlign: 'justify' }}>{typeEffect}</p> */}
+			{/* <div className="nes-balloon balloon" data-aos="zoom-in">
+			
 				<p>
 					BTNG (Basic Training Next Generation) adalah acara DNCC sebagai gerbang awal bagi mahasiswa Universitas Dian
 					Nuswantoro semester 1 sampai semester 5 yang ingin menjadi anggota di UKM DNCC. Acara ini bertujuan untuk
@@ -23,12 +24,12 @@ function About() {
 					dipilih.
 				</p>
 				<div className="bubble-buttom"></div>
-			</div>
-			{/* <div className="item-about">
+			</div> */}
+			<div className="item-about">
 				<i alt="Pink Flower" className="flower-left"></i>
 				<i alt="Character About" className="character-center"></i>
 				<i alt="Pink Flower" className="flower-right"></i>
-			</div> */}
+			</div>
 		</section>
 	);
 }
