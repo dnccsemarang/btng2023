@@ -100,7 +100,7 @@ const Divisi = () => {
 					<img src={multimedia} alt="" />
 					<div className="content">
 						<h3>Divisi Multimedia</h3>
-						<p>Mempelajari software desain seperti Adobe Photoshop, Illustrator, dll.</p>
+						<p>Mempelajari fotografi, software desain seperti Adobe Photoshop, dll.</p>
 						<a
 							target="_blank"
 							rel="noopener noreferrer"

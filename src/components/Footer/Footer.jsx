@@ -5,6 +5,8 @@ import gdscLogo from '../../assets/FooterAssets/media partner/gdsc.png';
 import ilkomLogo from '../../assets/FooterAssets/media partner/ilkom.png';
 import drcLogo from '../../assets/FooterAssets/media partner/drc.png';
 import sisfoLogo from '../../assets/FooterAssets/media partner/sisfo.png';
+import dkvLogo from '../../assets/FooterAssets/media partner/dkv.png';
+import dpmkmLogo from '../../assets/FooterAssets/media partner/dpmkm.jpg';
 import './Footer.css';
 import '../../../src/index.css';
 const Footer = () => {
@@ -102,6 +104,20 @@ const Footer = () => {
 										<div className="logo-pixel-corners--wrapper">
 											<div className="logo-pixel-corners">
 												<img src={sisfoLogo} alt="" className="partner-logo" />
+											</div>
+										</div>
+									</div>
+									<div className="partner-logo-item">
+										<div className="logo-pixel-corners--wrapper">
+											<div className="logo-pixel-corners">
+												<img src={dkvLogo} alt="" className="partner-logo" />
+											</div>
+										</div>
+									</div>
+									<div className="partner-logo-item">
+										<div className="logo-pixel-corners--wrapper">
+											<div className="logo-pixel-corners">
+												<img src={dpmkmLogo} alt="" className="partner-logo" />
 											</div>
 										</div>
 									</div>
