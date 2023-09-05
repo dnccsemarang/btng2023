@@ -21,7 +21,7 @@
 }
 body {
 	scroll-behavior: smooth !important;
-	overflow-x: hidden;
+	overflow-x: hidden !important;
 	height: 100%;
 	margin: 0;
 	background-image: url('./assets/bg.png');
