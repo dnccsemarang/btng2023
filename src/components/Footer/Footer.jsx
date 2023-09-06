@@ -43,7 +43,7 @@ const Footer = () => {
 				<div className="footer-content">
 					<div className="register-btn-part">
 						<div className="daftar-btn-container">
-							<div className="pipe-grass-left" data-aos="fade-right"></div>
+							<div className="pipe-grass-left" data-aos="fade-down"></div>
 							<div className="logo-pixel-corners--wrapper daftar-btn" data-aos="zoom-in">
 								<a
 									href="https://docs.google.com/forms/d/e/1FAIpQLSe-WnWM4TDdTih_H7ff3ZK7udJKuKv_7QJp6GXjhB9PR02P6A/viewform"
@@ -55,7 +55,7 @@ const Footer = () => {
 									</div>
 								</a>
 							</div>
-							<div className="pipe-grass-right" data-aos="fade-left"></div>
+							<div className="pipe-grass-right" data-aos="fade-down"></div>
 						</div>
 					</div>
 					<div className="footer-more-info-container">

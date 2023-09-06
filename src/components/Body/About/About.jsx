@@ -19,9 +19,9 @@ function About() {
 				<div className="bubble-buttom"></div>
 			</div>
 			<div className="item-about">
-				<i alt="Pink Flower" className="flower-left" data-aos="slide-right"></i>
+				<i alt="Pink Flower" className="flower-left" data-aos="fade-down"></i>
 				<i alt="Character About" className="character-center" data-aos="zoom-in-up"></i>
-				<i alt="Pink Flower" className="flower-right" data-aos="slide-left"></i>
+				<i alt="Pink Flower" className="flower-right" data-aos="fade-down"></i>
 			</div>
 		</section>
 	);
