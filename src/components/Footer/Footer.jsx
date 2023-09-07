@@ -7,6 +7,7 @@ import drcLogo from '../../assets/FooterAssets/media partner/drc.webp';
 import sisfoLogo from '../../assets/FooterAssets/media partner/sisfo.webp';
 import dkvLogo from '../../assets/FooterAssets/media partner/dkv.webp';
 import dpmkmLogo from '../../assets/FooterAssets/media partner/dpmkm.webp';
+import bemfikLogo from '../../assets/FooterAssets/media partner/bemfik.webp';
 import './Footer.css';
 import '../../../src/index.css';
 const Footer = () => {
@@ -118,6 +119,13 @@ const Footer = () => {
 										<div className="logo-pixel-corners--wrapper">
 											<div className="logo-pixel-corners">
 												<img src={dpmkmLogo} alt="" className="partner-logo" />
+											</div>
+										</div>
+									</div>
+									<div className="partner-logo-item">
+										<div className="logo-pixel-corners--wrapper">
+											<div className="logo-pixel-corners">
+												<img src={bemfikLogo} alt="" className="partner-logo" />
 											</div>
 										</div>
 									</div>
