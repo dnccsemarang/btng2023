@@ -33,7 +33,7 @@ const Jadwal = () => {
 								<Text>Pelatihan : Senin, 25 September - Jumat, 27 Oktober 2023 (4 Pertemuan)</Text>
 							</li>
 							<li className="pixelcorner">
-								<Text>Project Akhir : Minggu, 22 Oktober - Jumat, 27 Oktober 2023 (4 Pertemuan)</Text>
+								<Text>Project Akhir : Minggu, 22 Oktober - Jumat, 27 Oktober 2023</Text>
 							</li>
 							<li className="pixelcorner">
 								<Text>Penutupan : Sabtu, 28 Oktober 2023</Text>
