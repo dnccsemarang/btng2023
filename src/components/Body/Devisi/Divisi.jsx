@@ -27,7 +27,7 @@ const Divisi = () => {
 						<a
 							target="_blank"
 							rel="noopener noreferrer"
-							href="https://drive.google.com/file/d/1uo1_pXcr1OuyPR1UzSsPrK3HYdT7o2ln/view"
+							href="https://drive.google.com/file/d/1uo1_pXcr1OuyPR1UzSsPrK3HYdT7o2ln/view?usp=drive_link"
 						>
 							Lihat silabus &gt;&gt;&gt;
 						</a>
